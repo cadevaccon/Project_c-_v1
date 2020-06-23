@@ -31,46 +31,46 @@
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.metroTile2 = new MetroFramework.Controls.MetroTile();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.metroTile5 = new MetroFramework.Controls.MetroTile();
-            this.metroTile6 = new MetroFramework.Controls.MetroTile();
-            this.metroTile7 = new MetroFramework.Controls.MetroTile();
-            this.metroTile8 = new MetroFramework.Controls.MetroTile();
-            this.metroTile9 = new MetroFramework.Controls.MetroTile();
-            this.metroTile10 = new MetroFramework.Controls.MetroTile();
-            this.metroTile11 = new MetroFramework.Controls.MetroTile();
-            this.metroTile12 = new MetroFramework.Controls.MetroTile();
-            this.metroTile13 = new MetroFramework.Controls.MetroTile();
-            this.metroTile14 = new MetroFramework.Controls.MetroTile();
-            this.metroTile15 = new MetroFramework.Controls.MetroTile();
-            this.metroTile16 = new MetroFramework.Controls.MetroTile();
-            this.metroTile17 = new MetroFramework.Controls.MetroTile();
-            this.metroTile18 = new MetroFramework.Controls.MetroTile();
-            this.metroTile19 = new MetroFramework.Controls.MetroTile();
-            this.metroTile20 = new MetroFramework.Controls.MetroTile();
-            this.metroTile21 = new MetroFramework.Controls.MetroTile();
-            this.metroTile22 = new MetroFramework.Controls.MetroTile();
-            this.metroTile23 = new MetroFramework.Controls.MetroTile();
-            this.metroTile24 = new MetroFramework.Controls.MetroTile();
-            this.metroTile25 = new MetroFramework.Controls.MetroTile();
-            this.metroTile26 = new MetroFramework.Controls.MetroTile();
-            this.metroTile27 = new MetroFramework.Controls.MetroTile();
-            this.metroTile28 = new MetroFramework.Controls.MetroTile();
-            this.metroTile29 = new MetroFramework.Controls.MetroTile();
-            this.metroTile30 = new MetroFramework.Controls.MetroTile();
-            this.metroTile31 = new MetroFramework.Controls.MetroTile();
-            this.metroTile32 = new MetroFramework.Controls.MetroTile();
-            this.metroTile33 = new MetroFramework.Controls.MetroTile();
-            this.metroTile34 = new MetroFramework.Controls.MetroTile();
-            this.metroTile35 = new MetroFramework.Controls.MetroTile();
-            this.metroTile36 = new MetroFramework.Controls.MetroTile();
-            this.metroTile37 = new MetroFramework.Controls.MetroTile();
-            this.metroTile38 = new MetroFramework.Controls.MetroTile();
-            this.metroTile39 = new MetroFramework.Controls.MetroTile();
-            this.metroTile40 = new MetroFramework.Controls.MetroTile();
-            this.metroTile41 = new MetroFramework.Controls.MetroTile();
-            this.metroTile42 = new MetroFramework.Controls.MetroTile();
+            this.tile430 = new MetroFramework.Controls.MetroTile();
+            this.tile500 = new MetroFramework.Controls.MetroTile();
+            this.tile530 = new MetroFramework.Controls.MetroTile();
+            this.tile600 = new MetroFramework.Controls.MetroTile();
+            this.tile630 = new MetroFramework.Controls.MetroTile();
+            this.tile700 = new MetroFramework.Controls.MetroTile();
+            this.tile730 = new MetroFramework.Controls.MetroTile();
+            this.tile1200 = new MetroFramework.Controls.MetroTile();
+            this.tile1130 = new MetroFramework.Controls.MetroTile();
+            this.tile1100 = new MetroFramework.Controls.MetroTile();
+            this.tile1030 = new MetroFramework.Controls.MetroTile();
+            this.tile1000 = new MetroFramework.Controls.MetroTile();
+            this.tile900 = new MetroFramework.Controls.MetroTile();
+            this.tile830 = new MetroFramework.Controls.MetroTile();
+            this.tile1600 = new MetroFramework.Controls.MetroTile();
+            this.tile1530 = new MetroFramework.Controls.MetroTile();
+            this.tile1500 = new MetroFramework.Controls.MetroTile();
+            this.tile1430 = new MetroFramework.Controls.MetroTile();
+            this.tile1400 = new MetroFramework.Controls.MetroTile();
+            this.tile1330 = new MetroFramework.Controls.MetroTile();
+            this.tile1300 = new MetroFramework.Controls.MetroTile();
+            this.tile2000 = new MetroFramework.Controls.MetroTile();
+            this.tile1930 = new MetroFramework.Controls.MetroTile();
+            this.tile1900 = new MetroFramework.Controls.MetroTile();
+            this.tile1830 = new MetroFramework.Controls.MetroTile();
+            this.tile1800 = new MetroFramework.Controls.MetroTile();
+            this.tile1730 = new MetroFramework.Controls.MetroTile();
+            this.tile1700 = new MetroFramework.Controls.MetroTile();
+            this.tile2030 = new MetroFramework.Controls.MetroTile();
+            this.tile1630 = new MetroFramework.Controls.MetroTile();
+            this.tile1230 = new MetroFramework.Controls.MetroTile();
+            this.tile800 = new MetroFramework.Controls.MetroTile();
+            this.tile400 = new MetroFramework.Controls.MetroTile();
+            this.tile0000 = new MetroFramework.Controls.MetroTile();
+            this.tile2330 = new MetroFramework.Controls.MetroTile();
+            this.tile2300 = new MetroFramework.Controls.MetroTile();
+            this.tile2230 = new MetroFramework.Controls.MetroTile();
+            this.tile2200 = new MetroFramework.Controls.MetroTile();
+            this.tile2130 = new MetroFramework.Controls.MetroTile();
+            this.tile2100 = new MetroFramework.Controls.MetroTile();
             this.metroTile43 = new MetroFramework.Controls.MetroTile();
             this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
             this.metroProgressBar2 = new MetroFramework.Controls.MetroProgressBar();
@@ -78,6 +78,8 @@
             this.metroProgressBar4 = new MetroFramework.Controls.MetroProgressBar();
             this.metroProgressBar5 = new MetroFramework.Controls.MetroProgressBar();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // metroTile1
@@ -111,685 +113,685 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 2;
             // 
-            // metroTile3
-            // 
-            this.metroTile3.BackColor = System.Drawing.Color.Black;
-            this.metroTile3.CustomForeColor = true;
-            this.metroTile3.ForeColor = System.Drawing.Color.Black;
-            this.metroTile3.Location = new System.Drawing.Point(121, 122);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(92, 42);
-            this.metroTile3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile3.TabIndex = 3;
-            this.metroTile3.Text = "4 : 30";
-            this.metroTile3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile3.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile3.Click += new System.EventHandler(this.Clik);
-            this.metroTile3.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile3.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile4
-            // 
-            this.metroTile4.BackColor = System.Drawing.Color.Black;
-            this.metroTile4.CustomForeColor = true;
-            this.metroTile4.ForeColor = System.Drawing.Color.Black;
-            this.metroTile4.Location = new System.Drawing.Point(219, 122);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.Size = new System.Drawing.Size(92, 42);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile4.TabIndex = 4;
-            this.metroTile4.Text = "5 :00";
-            this.metroTile4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile4.Click += new System.EventHandler(this.Clik);
-            this.metroTile4.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile4.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile5
-            // 
-            this.metroTile5.BackColor = System.Drawing.Color.Black;
-            this.metroTile5.CustomForeColor = true;
-            this.metroTile5.ForeColor = System.Drawing.Color.Black;
-            this.metroTile5.Location = new System.Drawing.Point(317, 122);
-            this.metroTile5.Name = "metroTile5";
-            this.metroTile5.Size = new System.Drawing.Size(92, 42);
-            this.metroTile5.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile5.TabIndex = 5;
-            this.metroTile5.Text = "5 :30";
-            this.metroTile5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile5.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile5.Click += new System.EventHandler(this.Clik);
-            this.metroTile5.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile5.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile6
-            // 
-            this.metroTile6.BackColor = System.Drawing.Color.Black;
-            this.metroTile6.CustomForeColor = true;
-            this.metroTile6.ForeColor = System.Drawing.Color.Black;
-            this.metroTile6.Location = new System.Drawing.Point(415, 122);
-            this.metroTile6.Name = "metroTile6";
-            this.metroTile6.Size = new System.Drawing.Size(92, 42);
-            this.metroTile6.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile6.TabIndex = 6;
-            this.metroTile6.Text = "6 :00";
-            this.metroTile6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile6.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile6.Click += new System.EventHandler(this.Clik);
-            this.metroTile6.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile6.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile7
-            // 
-            this.metroTile7.BackColor = System.Drawing.Color.Black;
-            this.metroTile7.CustomForeColor = true;
-            this.metroTile7.ForeColor = System.Drawing.Color.Black;
-            this.metroTile7.Location = new System.Drawing.Point(513, 122);
-            this.metroTile7.Name = "metroTile7";
-            this.metroTile7.Size = new System.Drawing.Size(92, 42);
-            this.metroTile7.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile7.TabIndex = 7;
-            this.metroTile7.Text = "6 :30";
-            this.metroTile7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile7.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile7.Click += new System.EventHandler(this.Clik);
-            this.metroTile7.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile7.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile8
-            // 
-            this.metroTile8.BackColor = System.Drawing.Color.Black;
-            this.metroTile8.CustomForeColor = true;
-            this.metroTile8.ForeColor = System.Drawing.Color.Black;
-            this.metroTile8.Location = new System.Drawing.Point(611, 122);
-            this.metroTile8.Name = "metroTile8";
-            this.metroTile8.Size = new System.Drawing.Size(92, 42);
-            this.metroTile8.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile8.TabIndex = 8;
-            this.metroTile8.Text = "7 :00";
-            this.metroTile8.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile8.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile8.Click += new System.EventHandler(this.Clik);
-            this.metroTile8.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile8.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile9
-            // 
-            this.metroTile9.BackColor = System.Drawing.Color.Black;
-            this.metroTile9.CustomForeColor = true;
-            this.metroTile9.ForeColor = System.Drawing.Color.Black;
-            this.metroTile9.Location = new System.Drawing.Point(709, 122);
-            this.metroTile9.Name = "metroTile9";
-            this.metroTile9.Size = new System.Drawing.Size(92, 42);
-            this.metroTile9.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile9.TabIndex = 9;
-            this.metroTile9.Text = "7 :30";
-            this.metroTile9.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile9.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile9.Click += new System.EventHandler(this.Clik);
-            this.metroTile9.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile9.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile10
-            // 
-            this.metroTile10.BackColor = System.Drawing.Color.Black;
-            this.metroTile10.CustomForeColor = true;
-            this.metroTile10.ForeColor = System.Drawing.Color.Black;
-            this.metroTile10.Location = new System.Drawing.Point(709, 170);
-            this.metroTile10.Name = "metroTile10";
-            this.metroTile10.Size = new System.Drawing.Size(92, 42);
-            this.metroTile10.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile10.TabIndex = 16;
-            this.metroTile10.Text = "12:00";
-            this.metroTile10.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile10.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile10.Click += new System.EventHandler(this.Clik);
-            this.metroTile10.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile10.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile11
-            // 
-            this.metroTile11.BackColor = System.Drawing.Color.Black;
-            this.metroTile11.CustomForeColor = true;
-            this.metroTile11.ForeColor = System.Drawing.Color.Black;
-            this.metroTile11.Location = new System.Drawing.Point(611, 170);
-            this.metroTile11.Name = "metroTile11";
-            this.metroTile11.Size = new System.Drawing.Size(92, 42);
-            this.metroTile11.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile11.TabIndex = 15;
-            this.metroTile11.Text = "11:30";
-            this.metroTile11.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile11.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile11.Click += new System.EventHandler(this.Clik);
-            this.metroTile11.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile11.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile12
-            // 
-            this.metroTile12.BackColor = System.Drawing.Color.Black;
-            this.metroTile12.CustomForeColor = true;
-            this.metroTile12.ForeColor = System.Drawing.Color.Black;
-            this.metroTile12.Location = new System.Drawing.Point(513, 170);
-            this.metroTile12.Name = "metroTile12";
-            this.metroTile12.Size = new System.Drawing.Size(92, 42);
-            this.metroTile12.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile12.TabIndex = 14;
-            this.metroTile12.Text = "11:00";
-            this.metroTile12.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile12.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile12.Click += new System.EventHandler(this.Clik);
-            this.metroTile12.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile12.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile13
-            // 
-            this.metroTile13.BackColor = System.Drawing.Color.Black;
-            this.metroTile13.CustomForeColor = true;
-            this.metroTile13.ForeColor = System.Drawing.Color.Black;
-            this.metroTile13.Location = new System.Drawing.Point(415, 170);
-            this.metroTile13.Name = "metroTile13";
-            this.metroTile13.Size = new System.Drawing.Size(92, 42);
-            this.metroTile13.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile13.TabIndex = 13;
-            this.metroTile13.Text = "10:30";
-            this.metroTile13.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile13.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile13.Click += new System.EventHandler(this.Clik);
-            this.metroTile13.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile13.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile14
-            // 
-            this.metroTile14.BackColor = System.Drawing.Color.Black;
-            this.metroTile14.CustomForeColor = true;
-            this.metroTile14.ForeColor = System.Drawing.Color.Black;
-            this.metroTile14.Location = new System.Drawing.Point(317, 170);
-            this.metroTile14.Name = "metroTile14";
-            this.metroTile14.Size = new System.Drawing.Size(92, 42);
-            this.metroTile14.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile14.TabIndex = 12;
-            this.metroTile14.Text = "10:00";
-            this.metroTile14.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile14.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile14.Click += new System.EventHandler(this.Clik);
-            this.metroTile14.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile14.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile15
-            // 
-            this.metroTile15.BackColor = System.Drawing.Color.Black;
-            this.metroTile15.CustomForeColor = true;
-            this.metroTile15.ForeColor = System.Drawing.Color.Black;
-            this.metroTile15.Location = new System.Drawing.Point(219, 170);
-            this.metroTile15.Name = "metroTile15";
-            this.metroTile15.Size = new System.Drawing.Size(92, 42);
-            this.metroTile15.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile15.TabIndex = 11;
-            this.metroTile15.Text = "9 :00";
-            this.metroTile15.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile15.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile15.Click += new System.EventHandler(this.Clik);
-            this.metroTile15.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile15.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile16
-            // 
-            this.metroTile16.BackColor = System.Drawing.Color.Black;
-            this.metroTile16.CustomForeColor = true;
-            this.metroTile16.ForeColor = System.Drawing.Color.Black;
-            this.metroTile16.Location = new System.Drawing.Point(121, 170);
-            this.metroTile16.Name = "metroTile16";
-            this.metroTile16.Size = new System.Drawing.Size(92, 42);
-            this.metroTile16.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile16.TabIndex = 10;
-            this.metroTile16.Text = "8 :30";
-            this.metroTile16.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile16.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile16.Click += new System.EventHandler(this.Clik);
-            this.metroTile16.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile16.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile17
-            // 
-            this.metroTile17.BackColor = System.Drawing.Color.Black;
-            this.metroTile17.CustomForeColor = true;
-            this.metroTile17.ForeColor = System.Drawing.Color.Black;
-            this.metroTile17.Location = new System.Drawing.Point(709, 218);
-            this.metroTile17.Name = "metroTile17";
-            this.metroTile17.Size = new System.Drawing.Size(92, 42);
-            this.metroTile17.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile17.TabIndex = 23;
-            this.metroTile17.Text = "16:00";
-            this.metroTile17.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile17.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile17.Click += new System.EventHandler(this.Clik);
-            this.metroTile17.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile17.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile18
-            // 
-            this.metroTile18.BackColor = System.Drawing.Color.Black;
-            this.metroTile18.CustomForeColor = true;
-            this.metroTile18.ForeColor = System.Drawing.Color.Black;
-            this.metroTile18.Location = new System.Drawing.Point(611, 218);
-            this.metroTile18.Name = "metroTile18";
-            this.metroTile18.Size = new System.Drawing.Size(92, 42);
-            this.metroTile18.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile18.TabIndex = 22;
-            this.metroTile18.Text = "15:30";
-            this.metroTile18.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile18.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile18.Click += new System.EventHandler(this.Clik);
-            this.metroTile18.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile18.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile19
-            // 
-            this.metroTile19.BackColor = System.Drawing.Color.Black;
-            this.metroTile19.CustomForeColor = true;
-            this.metroTile19.ForeColor = System.Drawing.Color.Black;
-            this.metroTile19.Location = new System.Drawing.Point(513, 218);
-            this.metroTile19.Name = "metroTile19";
-            this.metroTile19.Size = new System.Drawing.Size(92, 42);
-            this.metroTile19.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile19.TabIndex = 21;
-            this.metroTile19.Text = "15:00";
-            this.metroTile19.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile19.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile19.Click += new System.EventHandler(this.Clik);
-            this.metroTile19.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile19.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile20
-            // 
-            this.metroTile20.BackColor = System.Drawing.Color.Black;
-            this.metroTile20.CustomForeColor = true;
-            this.metroTile20.ForeColor = System.Drawing.Color.Black;
-            this.metroTile20.Location = new System.Drawing.Point(415, 218);
-            this.metroTile20.Name = "metroTile20";
-            this.metroTile20.Size = new System.Drawing.Size(92, 42);
-            this.metroTile20.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile20.TabIndex = 20;
-            this.metroTile20.Text = "14:30";
-            this.metroTile20.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile20.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile20.Click += new System.EventHandler(this.Clik);
-            this.metroTile20.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile20.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile21
-            // 
-            this.metroTile21.BackColor = System.Drawing.Color.Black;
-            this.metroTile21.CustomForeColor = true;
-            this.metroTile21.ForeColor = System.Drawing.Color.Black;
-            this.metroTile21.Location = new System.Drawing.Point(317, 218);
-            this.metroTile21.Name = "metroTile21";
-            this.metroTile21.Size = new System.Drawing.Size(92, 42);
-            this.metroTile21.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile21.TabIndex = 19;
-            this.metroTile21.Text = "14:00";
-            this.metroTile21.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile21.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile21.Click += new System.EventHandler(this.Clik);
-            this.metroTile21.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile21.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile22
-            // 
-            this.metroTile22.BackColor = System.Drawing.Color.Black;
-            this.metroTile22.CustomForeColor = true;
-            this.metroTile22.ForeColor = System.Drawing.Color.Black;
-            this.metroTile22.Location = new System.Drawing.Point(219, 218);
-            this.metroTile22.Name = "metroTile22";
-            this.metroTile22.Size = new System.Drawing.Size(92, 42);
-            this.metroTile22.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile22.TabIndex = 18;
-            this.metroTile22.Text = "13:30";
-            this.metroTile22.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile22.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile22.Click += new System.EventHandler(this.Clik);
-            this.metroTile22.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile22.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile23
-            // 
-            this.metroTile23.BackColor = System.Drawing.Color.Black;
-            this.metroTile23.CustomForeColor = true;
-            this.metroTile23.ForeColor = System.Drawing.Color.Black;
-            this.metroTile23.Location = new System.Drawing.Point(121, 218);
-            this.metroTile23.Name = "metroTile23";
-            this.metroTile23.Size = new System.Drawing.Size(92, 42);
-            this.metroTile23.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile23.TabIndex = 17;
-            this.metroTile23.Text = "13:00";
-            this.metroTile23.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile23.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile23.Click += new System.EventHandler(this.Clik);
-            this.metroTile23.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile23.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile24
-            // 
-            this.metroTile24.BackColor = System.Drawing.Color.Black;
-            this.metroTile24.CustomForeColor = true;
-            this.metroTile24.ForeColor = System.Drawing.Color.Black;
-            this.metroTile24.Location = new System.Drawing.Point(709, 266);
-            this.metroTile24.Name = "metroTile24";
-            this.metroTile24.Size = new System.Drawing.Size(92, 42);
-            this.metroTile24.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile24.TabIndex = 30;
-            this.metroTile24.Text = "20:00";
-            this.metroTile24.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile24.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile24.Click += new System.EventHandler(this.Clik);
-            this.metroTile24.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile24.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile25
-            // 
-            this.metroTile25.BackColor = System.Drawing.Color.Black;
-            this.metroTile25.CustomForeColor = true;
-            this.metroTile25.ForeColor = System.Drawing.Color.Black;
-            this.metroTile25.Location = new System.Drawing.Point(611, 266);
-            this.metroTile25.Name = "metroTile25";
-            this.metroTile25.Size = new System.Drawing.Size(92, 42);
-            this.metroTile25.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile25.TabIndex = 29;
-            this.metroTile25.Text = "19:30";
-            this.metroTile25.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile25.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile25.Click += new System.EventHandler(this.Clik);
-            this.metroTile25.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile25.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile26
-            // 
-            this.metroTile26.BackColor = System.Drawing.Color.Black;
-            this.metroTile26.CustomForeColor = true;
-            this.metroTile26.ForeColor = System.Drawing.Color.Black;
-            this.metroTile26.Location = new System.Drawing.Point(513, 266);
-            this.metroTile26.Name = "metroTile26";
-            this.metroTile26.Size = new System.Drawing.Size(92, 42);
-            this.metroTile26.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile26.TabIndex = 28;
-            this.metroTile26.Text = "19:00";
-            this.metroTile26.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile26.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile26.Click += new System.EventHandler(this.Clik);
-            this.metroTile26.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile26.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile27
-            // 
-            this.metroTile27.BackColor = System.Drawing.Color.Black;
-            this.metroTile27.CustomForeColor = true;
-            this.metroTile27.ForeColor = System.Drawing.Color.Black;
-            this.metroTile27.Location = new System.Drawing.Point(415, 266);
-            this.metroTile27.Name = "metroTile27";
-            this.metroTile27.Size = new System.Drawing.Size(92, 42);
-            this.metroTile27.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile27.TabIndex = 27;
-            this.metroTile27.Text = "18:30";
-            this.metroTile27.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile27.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile27.Click += new System.EventHandler(this.Clik);
-            this.metroTile27.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile27.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile28
-            // 
-            this.metroTile28.BackColor = System.Drawing.Color.Black;
-            this.metroTile28.CustomForeColor = true;
-            this.metroTile28.ForeColor = System.Drawing.Color.Black;
-            this.metroTile28.Location = new System.Drawing.Point(317, 266);
-            this.metroTile28.Name = "metroTile28";
-            this.metroTile28.Size = new System.Drawing.Size(92, 42);
-            this.metroTile28.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile28.TabIndex = 26;
-            this.metroTile28.Text = "18:00";
-            this.metroTile28.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile28.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile28.Click += new System.EventHandler(this.Clik);
-            this.metroTile28.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile28.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile29
-            // 
-            this.metroTile29.BackColor = System.Drawing.Color.Black;
-            this.metroTile29.CustomForeColor = true;
-            this.metroTile29.ForeColor = System.Drawing.Color.Black;
-            this.metroTile29.Location = new System.Drawing.Point(219, 266);
-            this.metroTile29.Name = "metroTile29";
-            this.metroTile29.Size = new System.Drawing.Size(92, 42);
-            this.metroTile29.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile29.TabIndex = 25;
-            this.metroTile29.Text = "17:30";
-            this.metroTile29.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile29.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile29.Click += new System.EventHandler(this.Clik);
-            this.metroTile29.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile29.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile30
-            // 
-            this.metroTile30.BackColor = System.Drawing.Color.Black;
-            this.metroTile30.CustomForeColor = true;
-            this.metroTile30.ForeColor = System.Drawing.Color.Black;
-            this.metroTile30.Location = new System.Drawing.Point(121, 266);
-            this.metroTile30.Name = "metroTile30";
-            this.metroTile30.Size = new System.Drawing.Size(92, 42);
-            this.metroTile30.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile30.TabIndex = 24;
-            this.metroTile30.Text = "17:00";
-            this.metroTile30.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile30.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile30.Click += new System.EventHandler(this.Clik);
-            this.metroTile30.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile30.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile31
-            // 
-            this.metroTile31.BackColor = System.Drawing.Color.Black;
-            this.metroTile31.CustomForeColor = true;
-            this.metroTile31.ForeColor = System.Drawing.Color.Black;
-            this.metroTile31.Location = new System.Drawing.Point(23, 314);
-            this.metroTile31.Name = "metroTile31";
-            this.metroTile31.Size = new System.Drawing.Size(92, 42);
-            this.metroTile31.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile31.TabIndex = 34;
-            this.metroTile31.Text = "20:30";
-            this.metroTile31.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile31.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile31.Click += new System.EventHandler(this.Clik);
-            this.metroTile31.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile31.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile32
-            // 
-            this.metroTile32.BackColor = System.Drawing.Color.Black;
-            this.metroTile32.CustomForeColor = true;
-            this.metroTile32.ForeColor = System.Drawing.Color.Black;
-            this.metroTile32.Location = new System.Drawing.Point(24, 266);
-            this.metroTile32.Name = "metroTile32";
-            this.metroTile32.Size = new System.Drawing.Size(92, 42);
-            this.metroTile32.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile32.TabIndex = 33;
-            this.metroTile32.Text = "16:30";
-            this.metroTile32.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile32.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile32.Click += new System.EventHandler(this.Clik);
-            this.metroTile32.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile32.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile33
-            // 
-            this.metroTile33.BackColor = System.Drawing.Color.Black;
-            this.metroTile33.CustomForeColor = true;
-            this.metroTile33.ForeColor = System.Drawing.Color.Black;
-            this.metroTile33.Location = new System.Drawing.Point(24, 218);
-            this.metroTile33.Name = "metroTile33";
-            this.metroTile33.Size = new System.Drawing.Size(92, 42);
-            this.metroTile33.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile33.TabIndex = 32;
-            this.metroTile33.Text = "12:30";
-            this.metroTile33.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile33.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile33.Click += new System.EventHandler(this.Clik);
-            this.metroTile33.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile33.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile34
-            // 
-            this.metroTile34.BackColor = System.Drawing.Color.Black;
-            this.metroTile34.CustomForeColor = true;
-            this.metroTile34.ForeColor = System.Drawing.Color.Black;
-            this.metroTile34.Location = new System.Drawing.Point(23, 170);
-            this.metroTile34.Name = "metroTile34";
-            this.metroTile34.Size = new System.Drawing.Size(92, 42);
-            this.metroTile34.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile34.TabIndex = 31;
-            this.metroTile34.Text = "8 :00";
-            this.metroTile34.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile34.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile34.Click += new System.EventHandler(this.Clik);
-            this.metroTile34.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile34.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile35
-            // 
-            this.metroTile35.BackColor = System.Drawing.Color.Black;
-            this.metroTile35.CustomForeColor = true;
-            this.metroTile35.ForeColor = System.Drawing.Color.Black;
-            this.metroTile35.Location = new System.Drawing.Point(23, 122);
-            this.metroTile35.Name = "metroTile35";
-            this.metroTile35.Size = new System.Drawing.Size(92, 42);
-            this.metroTile35.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile35.TabIndex = 42;
-            this.metroTile35.Text = "4 :00";
-            this.metroTile35.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile35.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile35.Click += new System.EventHandler(this.Clik);
-            this.metroTile35.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile35.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile36
-            // 
-            this.metroTile36.BackColor = System.Drawing.Color.Black;
-            this.metroTile36.CustomForeColor = true;
-            this.metroTile36.ForeColor = System.Drawing.Color.Black;
-            this.metroTile36.Location = new System.Drawing.Point(709, 314);
-            this.metroTile36.Name = "metroTile36";
-            this.metroTile36.Size = new System.Drawing.Size(92, 42);
-            this.metroTile36.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile36.TabIndex = 41;
-            this.metroTile36.Text = "00:00";
-            this.metroTile36.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile36.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile36.Click += new System.EventHandler(this.Clik);
-            this.metroTile36.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile36.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile37
-            // 
-            this.metroTile37.BackColor = System.Drawing.Color.Black;
-            this.metroTile37.CustomForeColor = true;
-            this.metroTile37.ForeColor = System.Drawing.Color.Black;
-            this.metroTile37.Location = new System.Drawing.Point(611, 314);
-            this.metroTile37.Name = "metroTile37";
-            this.metroTile37.Size = new System.Drawing.Size(92, 42);
-            this.metroTile37.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile37.TabIndex = 40;
-            this.metroTile37.Text = "23:30";
-            this.metroTile37.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile37.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile37.Click += new System.EventHandler(this.Clik);
-            this.metroTile37.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile37.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile38
-            // 
-            this.metroTile38.BackColor = System.Drawing.Color.Black;
-            this.metroTile38.CustomForeColor = true;
-            this.metroTile38.ForeColor = System.Drawing.Color.Black;
-            this.metroTile38.Location = new System.Drawing.Point(513, 314);
-            this.metroTile38.Name = "metroTile38";
-            this.metroTile38.Size = new System.Drawing.Size(92, 42);
-            this.metroTile38.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile38.TabIndex = 39;
-            this.metroTile38.Text = "23:00";
-            this.metroTile38.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile38.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile38.Click += new System.EventHandler(this.Clik);
-            this.metroTile38.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile38.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile39
-            // 
-            this.metroTile39.BackColor = System.Drawing.Color.Black;
-            this.metroTile39.CustomForeColor = true;
-            this.metroTile39.ForeColor = System.Drawing.Color.Black;
-            this.metroTile39.Location = new System.Drawing.Point(415, 314);
-            this.metroTile39.Name = "metroTile39";
-            this.metroTile39.Size = new System.Drawing.Size(92, 42);
-            this.metroTile39.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile39.TabIndex = 38;
-            this.metroTile39.Text = "22:30";
-            this.metroTile39.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile39.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile39.Click += new System.EventHandler(this.Clik);
-            this.metroTile39.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile39.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile40
-            // 
-            this.metroTile40.BackColor = System.Drawing.Color.Black;
-            this.metroTile40.CustomForeColor = true;
-            this.metroTile40.ForeColor = System.Drawing.Color.Black;
-            this.metroTile40.Location = new System.Drawing.Point(317, 314);
-            this.metroTile40.Name = "metroTile40";
-            this.metroTile40.Size = new System.Drawing.Size(92, 42);
-            this.metroTile40.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile40.TabIndex = 37;
-            this.metroTile40.Text = "22:00";
-            this.metroTile40.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile40.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile40.Click += new System.EventHandler(this.Clik);
-            this.metroTile40.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile40.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile41
-            // 
-            this.metroTile41.BackColor = System.Drawing.Color.Black;
-            this.metroTile41.CustomForeColor = true;
-            this.metroTile41.ForeColor = System.Drawing.Color.Black;
-            this.metroTile41.Location = new System.Drawing.Point(219, 314);
-            this.metroTile41.Name = "metroTile41";
-            this.metroTile41.Size = new System.Drawing.Size(92, 42);
-            this.metroTile41.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile41.TabIndex = 36;
-            this.metroTile41.Text = "21:30";
-            this.metroTile41.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile41.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile41.Click += new System.EventHandler(this.Clik);
-            this.metroTile41.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile41.MouseLeave += new System.EventHandler(this.defocuser);
-            // 
-            // metroTile42
-            // 
-            this.metroTile42.BackColor = System.Drawing.Color.Black;
-            this.metroTile42.CustomForeColor = true;
-            this.metroTile42.ForeColor = System.Drawing.Color.Black;
-            this.metroTile42.Location = new System.Drawing.Point(121, 314);
-            this.metroTile42.Name = "metroTile42";
-            this.metroTile42.Size = new System.Drawing.Size(92, 42);
-            this.metroTile42.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile42.TabIndex = 35;
-            this.metroTile42.Text = "21:00";
-            this.metroTile42.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTile42.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
-            this.metroTile42.Click += new System.EventHandler(this.Clik);
-            this.metroTile42.MouseEnter += new System.EventHandler(this.focuser);
-            this.metroTile42.MouseLeave += new System.EventHandler(this.defocuser);
+            // tile430
+            // 
+            this.tile430.BackColor = System.Drawing.Color.Black;
+            this.tile430.CustomForeColor = true;
+            this.tile430.ForeColor = System.Drawing.Color.Black;
+            this.tile430.Location = new System.Drawing.Point(121, 122);
+            this.tile430.Name = "tile430";
+            this.tile430.Size = new System.Drawing.Size(92, 42);
+            this.tile430.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile430.TabIndex = 3;
+            this.tile430.Text = "4 : 30";
+            this.tile430.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile430.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile430.Click += new System.EventHandler(this.Clik);
+            this.tile430.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile430.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile500
+            // 
+            this.tile500.BackColor = System.Drawing.Color.Black;
+            this.tile500.CustomForeColor = true;
+            this.tile500.ForeColor = System.Drawing.Color.Black;
+            this.tile500.Location = new System.Drawing.Point(219, 122);
+            this.tile500.Name = "tile500";
+            this.tile500.Size = new System.Drawing.Size(92, 42);
+            this.tile500.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile500.TabIndex = 4;
+            this.tile500.Text = "5 :00";
+            this.tile500.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile500.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile500.Click += new System.EventHandler(this.Clik);
+            this.tile500.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile500.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile530
+            // 
+            this.tile530.BackColor = System.Drawing.Color.Black;
+            this.tile530.CustomForeColor = true;
+            this.tile530.ForeColor = System.Drawing.Color.Black;
+            this.tile530.Location = new System.Drawing.Point(317, 122);
+            this.tile530.Name = "tile530";
+            this.tile530.Size = new System.Drawing.Size(92, 42);
+            this.tile530.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile530.TabIndex = 5;
+            this.tile530.Text = "5 :30";
+            this.tile530.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile530.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile530.Click += new System.EventHandler(this.Clik);
+            this.tile530.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile530.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile600
+            // 
+            this.tile600.BackColor = System.Drawing.Color.Black;
+            this.tile600.CustomForeColor = true;
+            this.tile600.ForeColor = System.Drawing.Color.Black;
+            this.tile600.Location = new System.Drawing.Point(415, 122);
+            this.tile600.Name = "tile600";
+            this.tile600.Size = new System.Drawing.Size(92, 42);
+            this.tile600.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile600.TabIndex = 6;
+            this.tile600.Text = "6 :00";
+            this.tile600.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile600.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile600.Click += new System.EventHandler(this.Clik);
+            this.tile600.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile600.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile630
+            // 
+            this.tile630.BackColor = System.Drawing.Color.Black;
+            this.tile630.CustomForeColor = true;
+            this.tile630.ForeColor = System.Drawing.Color.Black;
+            this.tile630.Location = new System.Drawing.Point(513, 122);
+            this.tile630.Name = "tile630";
+            this.tile630.Size = new System.Drawing.Size(92, 42);
+            this.tile630.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile630.TabIndex = 7;
+            this.tile630.Text = "6 :30";
+            this.tile630.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile630.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile630.Click += new System.EventHandler(this.Clik);
+            this.tile630.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile630.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile700
+            // 
+            this.tile700.BackColor = System.Drawing.Color.Black;
+            this.tile700.CustomForeColor = true;
+            this.tile700.ForeColor = System.Drawing.Color.Black;
+            this.tile700.Location = new System.Drawing.Point(611, 122);
+            this.tile700.Name = "tile700";
+            this.tile700.Size = new System.Drawing.Size(92, 42);
+            this.tile700.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile700.TabIndex = 8;
+            this.tile700.Text = "7 :00";
+            this.tile700.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile700.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile700.Click += new System.EventHandler(this.Clik);
+            this.tile700.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile700.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile730
+            // 
+            this.tile730.BackColor = System.Drawing.Color.Black;
+            this.tile730.CustomForeColor = true;
+            this.tile730.ForeColor = System.Drawing.Color.Black;
+            this.tile730.Location = new System.Drawing.Point(709, 122);
+            this.tile730.Name = "tile730";
+            this.tile730.Size = new System.Drawing.Size(92, 42);
+            this.tile730.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile730.TabIndex = 9;
+            this.tile730.Text = "7 :30";
+            this.tile730.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile730.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile730.Click += new System.EventHandler(this.Clik);
+            this.tile730.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile730.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1200
+            // 
+            this.tile1200.BackColor = System.Drawing.Color.Black;
+            this.tile1200.CustomForeColor = true;
+            this.tile1200.ForeColor = System.Drawing.Color.Black;
+            this.tile1200.Location = new System.Drawing.Point(709, 170);
+            this.tile1200.Name = "tile1200";
+            this.tile1200.Size = new System.Drawing.Size(92, 42);
+            this.tile1200.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1200.TabIndex = 16;
+            this.tile1200.Text = "12:00";
+            this.tile1200.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1200.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1200.Click += new System.EventHandler(this.Clik);
+            this.tile1200.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1200.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1130
+            // 
+            this.tile1130.BackColor = System.Drawing.Color.Black;
+            this.tile1130.CustomForeColor = true;
+            this.tile1130.ForeColor = System.Drawing.Color.Black;
+            this.tile1130.Location = new System.Drawing.Point(611, 170);
+            this.tile1130.Name = "tile1130";
+            this.tile1130.Size = new System.Drawing.Size(92, 42);
+            this.tile1130.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1130.TabIndex = 15;
+            this.tile1130.Text = "11:30";
+            this.tile1130.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1130.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1130.Click += new System.EventHandler(this.Clik);
+            this.tile1130.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1130.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1100
+            // 
+            this.tile1100.BackColor = System.Drawing.Color.Black;
+            this.tile1100.CustomForeColor = true;
+            this.tile1100.ForeColor = System.Drawing.Color.Black;
+            this.tile1100.Location = new System.Drawing.Point(513, 170);
+            this.tile1100.Name = "tile1100";
+            this.tile1100.Size = new System.Drawing.Size(92, 42);
+            this.tile1100.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1100.TabIndex = 14;
+            this.tile1100.Text = "11:00";
+            this.tile1100.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1100.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1100.Click += new System.EventHandler(this.Clik);
+            this.tile1100.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1100.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1030
+            // 
+            this.tile1030.BackColor = System.Drawing.Color.Black;
+            this.tile1030.CustomForeColor = true;
+            this.tile1030.ForeColor = System.Drawing.Color.Black;
+            this.tile1030.Location = new System.Drawing.Point(415, 170);
+            this.tile1030.Name = "tile1030";
+            this.tile1030.Size = new System.Drawing.Size(92, 42);
+            this.tile1030.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1030.TabIndex = 13;
+            this.tile1030.Text = "10:30";
+            this.tile1030.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1030.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1030.Click += new System.EventHandler(this.Clik);
+            this.tile1030.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1030.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1000
+            // 
+            this.tile1000.BackColor = System.Drawing.Color.Black;
+            this.tile1000.CustomForeColor = true;
+            this.tile1000.ForeColor = System.Drawing.Color.Black;
+            this.tile1000.Location = new System.Drawing.Point(317, 170);
+            this.tile1000.Name = "tile1000";
+            this.tile1000.Size = new System.Drawing.Size(92, 42);
+            this.tile1000.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1000.TabIndex = 12;
+            this.tile1000.Text = "10:00";
+            this.tile1000.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1000.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1000.Click += new System.EventHandler(this.Clik);
+            this.tile1000.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1000.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile900
+            // 
+            this.tile900.BackColor = System.Drawing.Color.Black;
+            this.tile900.CustomForeColor = true;
+            this.tile900.ForeColor = System.Drawing.Color.Black;
+            this.tile900.Location = new System.Drawing.Point(219, 170);
+            this.tile900.Name = "tile900";
+            this.tile900.Size = new System.Drawing.Size(92, 42);
+            this.tile900.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile900.TabIndex = 11;
+            this.tile900.Text = "9 :00";
+            this.tile900.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile900.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile900.Click += new System.EventHandler(this.Clik);
+            this.tile900.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile900.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile830
+            // 
+            this.tile830.BackColor = System.Drawing.Color.Black;
+            this.tile830.CustomForeColor = true;
+            this.tile830.ForeColor = System.Drawing.Color.Black;
+            this.tile830.Location = new System.Drawing.Point(121, 170);
+            this.tile830.Name = "tile830";
+            this.tile830.Size = new System.Drawing.Size(92, 42);
+            this.tile830.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile830.TabIndex = 10;
+            this.tile830.Text = "8 :30";
+            this.tile830.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile830.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile830.Click += new System.EventHandler(this.Clik);
+            this.tile830.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile830.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1600
+            // 
+            this.tile1600.BackColor = System.Drawing.Color.Black;
+            this.tile1600.CustomForeColor = true;
+            this.tile1600.ForeColor = System.Drawing.Color.Black;
+            this.tile1600.Location = new System.Drawing.Point(709, 218);
+            this.tile1600.Name = "tile1600";
+            this.tile1600.Size = new System.Drawing.Size(92, 42);
+            this.tile1600.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1600.TabIndex = 23;
+            this.tile1600.Text = "16:00";
+            this.tile1600.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1600.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1600.Click += new System.EventHandler(this.Clik);
+            this.tile1600.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1600.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1530
+            // 
+            this.tile1530.BackColor = System.Drawing.Color.Black;
+            this.tile1530.CustomForeColor = true;
+            this.tile1530.ForeColor = System.Drawing.Color.Black;
+            this.tile1530.Location = new System.Drawing.Point(611, 218);
+            this.tile1530.Name = "tile1530";
+            this.tile1530.Size = new System.Drawing.Size(92, 42);
+            this.tile1530.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1530.TabIndex = 22;
+            this.tile1530.Text = "15:30";
+            this.tile1530.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1530.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1530.Click += new System.EventHandler(this.Clik);
+            this.tile1530.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1530.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1500
+            // 
+            this.tile1500.BackColor = System.Drawing.Color.Black;
+            this.tile1500.CustomForeColor = true;
+            this.tile1500.ForeColor = System.Drawing.Color.Black;
+            this.tile1500.Location = new System.Drawing.Point(513, 218);
+            this.tile1500.Name = "tile1500";
+            this.tile1500.Size = new System.Drawing.Size(92, 42);
+            this.tile1500.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1500.TabIndex = 21;
+            this.tile1500.Text = "15:00";
+            this.tile1500.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1500.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1500.Click += new System.EventHandler(this.Clik);
+            this.tile1500.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1500.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1430
+            // 
+            this.tile1430.BackColor = System.Drawing.Color.Black;
+            this.tile1430.CustomForeColor = true;
+            this.tile1430.ForeColor = System.Drawing.Color.Black;
+            this.tile1430.Location = new System.Drawing.Point(415, 218);
+            this.tile1430.Name = "tile1430";
+            this.tile1430.Size = new System.Drawing.Size(92, 42);
+            this.tile1430.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1430.TabIndex = 20;
+            this.tile1430.Text = "14:30";
+            this.tile1430.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1430.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1430.Click += new System.EventHandler(this.Clik);
+            this.tile1430.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1430.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1400
+            // 
+            this.tile1400.BackColor = System.Drawing.Color.Black;
+            this.tile1400.CustomForeColor = true;
+            this.tile1400.ForeColor = System.Drawing.Color.Black;
+            this.tile1400.Location = new System.Drawing.Point(317, 218);
+            this.tile1400.Name = "tile1400";
+            this.tile1400.Size = new System.Drawing.Size(92, 42);
+            this.tile1400.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1400.TabIndex = 19;
+            this.tile1400.Text = "14:00";
+            this.tile1400.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1400.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1400.Click += new System.EventHandler(this.Clik);
+            this.tile1400.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1400.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1330
+            // 
+            this.tile1330.BackColor = System.Drawing.Color.Black;
+            this.tile1330.CustomForeColor = true;
+            this.tile1330.ForeColor = System.Drawing.Color.Black;
+            this.tile1330.Location = new System.Drawing.Point(219, 218);
+            this.tile1330.Name = "tile1330";
+            this.tile1330.Size = new System.Drawing.Size(92, 42);
+            this.tile1330.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1330.TabIndex = 18;
+            this.tile1330.Text = "13:30";
+            this.tile1330.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1330.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1330.Click += new System.EventHandler(this.Clik);
+            this.tile1330.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1330.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1300
+            // 
+            this.tile1300.BackColor = System.Drawing.Color.Black;
+            this.tile1300.CustomForeColor = true;
+            this.tile1300.ForeColor = System.Drawing.Color.Black;
+            this.tile1300.Location = new System.Drawing.Point(121, 218);
+            this.tile1300.Name = "tile1300";
+            this.tile1300.Size = new System.Drawing.Size(92, 42);
+            this.tile1300.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1300.TabIndex = 17;
+            this.tile1300.Text = "13:00";
+            this.tile1300.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1300.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1300.Click += new System.EventHandler(this.Clik);
+            this.tile1300.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1300.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2000
+            // 
+            this.tile2000.BackColor = System.Drawing.Color.Black;
+            this.tile2000.CustomForeColor = true;
+            this.tile2000.ForeColor = System.Drawing.Color.Black;
+            this.tile2000.Location = new System.Drawing.Point(709, 266);
+            this.tile2000.Name = "tile2000";
+            this.tile2000.Size = new System.Drawing.Size(92, 42);
+            this.tile2000.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2000.TabIndex = 30;
+            this.tile2000.Text = "20:00";
+            this.tile2000.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2000.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2000.Click += new System.EventHandler(this.Clik);
+            this.tile2000.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2000.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1930
+            // 
+            this.tile1930.BackColor = System.Drawing.Color.Black;
+            this.tile1930.CustomForeColor = true;
+            this.tile1930.ForeColor = System.Drawing.Color.Black;
+            this.tile1930.Location = new System.Drawing.Point(611, 266);
+            this.tile1930.Name = "tile1930";
+            this.tile1930.Size = new System.Drawing.Size(92, 42);
+            this.tile1930.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1930.TabIndex = 29;
+            this.tile1930.Text = "19:30";
+            this.tile1930.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1930.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1930.Click += new System.EventHandler(this.Clik);
+            this.tile1930.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1930.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1900
+            // 
+            this.tile1900.BackColor = System.Drawing.Color.Black;
+            this.tile1900.CustomForeColor = true;
+            this.tile1900.ForeColor = System.Drawing.Color.Black;
+            this.tile1900.Location = new System.Drawing.Point(513, 266);
+            this.tile1900.Name = "tile1900";
+            this.tile1900.Size = new System.Drawing.Size(92, 42);
+            this.tile1900.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1900.TabIndex = 28;
+            this.tile1900.Text = "19:00";
+            this.tile1900.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1900.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1900.Click += new System.EventHandler(this.Clik);
+            this.tile1900.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1900.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1830
+            // 
+            this.tile1830.BackColor = System.Drawing.Color.Black;
+            this.tile1830.CustomForeColor = true;
+            this.tile1830.ForeColor = System.Drawing.Color.Black;
+            this.tile1830.Location = new System.Drawing.Point(415, 266);
+            this.tile1830.Name = "tile1830";
+            this.tile1830.Size = new System.Drawing.Size(92, 42);
+            this.tile1830.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1830.TabIndex = 27;
+            this.tile1830.Text = "18:30";
+            this.tile1830.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1830.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1830.Click += new System.EventHandler(this.Clik);
+            this.tile1830.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1830.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1800
+            // 
+            this.tile1800.BackColor = System.Drawing.Color.Black;
+            this.tile1800.CustomForeColor = true;
+            this.tile1800.ForeColor = System.Drawing.Color.Black;
+            this.tile1800.Location = new System.Drawing.Point(317, 266);
+            this.tile1800.Name = "tile1800";
+            this.tile1800.Size = new System.Drawing.Size(92, 42);
+            this.tile1800.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1800.TabIndex = 26;
+            this.tile1800.Text = "18:00";
+            this.tile1800.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1800.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1800.Click += new System.EventHandler(this.Clik);
+            this.tile1800.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1800.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1730
+            // 
+            this.tile1730.BackColor = System.Drawing.Color.Black;
+            this.tile1730.CustomForeColor = true;
+            this.tile1730.ForeColor = System.Drawing.Color.Black;
+            this.tile1730.Location = new System.Drawing.Point(219, 266);
+            this.tile1730.Name = "tile1730";
+            this.tile1730.Size = new System.Drawing.Size(92, 42);
+            this.tile1730.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1730.TabIndex = 25;
+            this.tile1730.Text = "17:30";
+            this.tile1730.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1730.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1730.Click += new System.EventHandler(this.Clik);
+            this.tile1730.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1730.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1700
+            // 
+            this.tile1700.BackColor = System.Drawing.Color.Black;
+            this.tile1700.CustomForeColor = true;
+            this.tile1700.ForeColor = System.Drawing.Color.Black;
+            this.tile1700.Location = new System.Drawing.Point(121, 266);
+            this.tile1700.Name = "tile1700";
+            this.tile1700.Size = new System.Drawing.Size(92, 42);
+            this.tile1700.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1700.TabIndex = 24;
+            this.tile1700.Text = "17:00";
+            this.tile1700.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1700.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1700.Click += new System.EventHandler(this.Clik);
+            this.tile1700.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1700.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2030
+            // 
+            this.tile2030.BackColor = System.Drawing.Color.Black;
+            this.tile2030.CustomForeColor = true;
+            this.tile2030.ForeColor = System.Drawing.Color.Black;
+            this.tile2030.Location = new System.Drawing.Point(23, 314);
+            this.tile2030.Name = "tile2030";
+            this.tile2030.Size = new System.Drawing.Size(92, 42);
+            this.tile2030.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2030.TabIndex = 34;
+            this.tile2030.Text = "20:30";
+            this.tile2030.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2030.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2030.Click += new System.EventHandler(this.Clik);
+            this.tile2030.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2030.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1630
+            // 
+            this.tile1630.BackColor = System.Drawing.Color.Black;
+            this.tile1630.CustomForeColor = true;
+            this.tile1630.ForeColor = System.Drawing.Color.Black;
+            this.tile1630.Location = new System.Drawing.Point(24, 266);
+            this.tile1630.Name = "tile1630";
+            this.tile1630.Size = new System.Drawing.Size(92, 42);
+            this.tile1630.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1630.TabIndex = 33;
+            this.tile1630.Text = "16:30";
+            this.tile1630.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1630.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1630.Click += new System.EventHandler(this.Clik);
+            this.tile1630.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1630.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile1230
+            // 
+            this.tile1230.BackColor = System.Drawing.Color.Black;
+            this.tile1230.CustomForeColor = true;
+            this.tile1230.ForeColor = System.Drawing.Color.Black;
+            this.tile1230.Location = new System.Drawing.Point(24, 218);
+            this.tile1230.Name = "tile1230";
+            this.tile1230.Size = new System.Drawing.Size(92, 42);
+            this.tile1230.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile1230.TabIndex = 32;
+            this.tile1230.Text = "12:30";
+            this.tile1230.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile1230.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile1230.Click += new System.EventHandler(this.Clik);
+            this.tile1230.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile1230.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile800
+            // 
+            this.tile800.BackColor = System.Drawing.Color.Black;
+            this.tile800.CustomForeColor = true;
+            this.tile800.ForeColor = System.Drawing.Color.Black;
+            this.tile800.Location = new System.Drawing.Point(23, 170);
+            this.tile800.Name = "tile800";
+            this.tile800.Size = new System.Drawing.Size(92, 42);
+            this.tile800.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile800.TabIndex = 31;
+            this.tile800.Text = "8 :00";
+            this.tile800.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile800.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile800.Click += new System.EventHandler(this.Clik);
+            this.tile800.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile800.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile400
+            // 
+            this.tile400.BackColor = System.Drawing.Color.Black;
+            this.tile400.CustomForeColor = true;
+            this.tile400.ForeColor = System.Drawing.Color.Black;
+            this.tile400.Location = new System.Drawing.Point(23, 122);
+            this.tile400.Name = "tile400";
+            this.tile400.Size = new System.Drawing.Size(92, 42);
+            this.tile400.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile400.TabIndex = 42;
+            this.tile400.Text = "4 :00";
+            this.tile400.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile400.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile400.Click += new System.EventHandler(this.Clik);
+            this.tile400.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile400.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile0000
+            // 
+            this.tile0000.BackColor = System.Drawing.Color.Black;
+            this.tile0000.CustomForeColor = true;
+            this.tile0000.ForeColor = System.Drawing.Color.Black;
+            this.tile0000.Location = new System.Drawing.Point(709, 314);
+            this.tile0000.Name = "tile0000";
+            this.tile0000.Size = new System.Drawing.Size(92, 42);
+            this.tile0000.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile0000.TabIndex = 41;
+            this.tile0000.Text = "00:00";
+            this.tile0000.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile0000.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile0000.Click += new System.EventHandler(this.Clik);
+            this.tile0000.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile0000.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2330
+            // 
+            this.tile2330.BackColor = System.Drawing.Color.Black;
+            this.tile2330.CustomForeColor = true;
+            this.tile2330.ForeColor = System.Drawing.Color.Black;
+            this.tile2330.Location = new System.Drawing.Point(611, 314);
+            this.tile2330.Name = "tile2330";
+            this.tile2330.Size = new System.Drawing.Size(92, 42);
+            this.tile2330.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2330.TabIndex = 40;
+            this.tile2330.Text = "23:30";
+            this.tile2330.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2330.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2330.Click += new System.EventHandler(this.Clik);
+            this.tile2330.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2330.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2300
+            // 
+            this.tile2300.BackColor = System.Drawing.Color.Black;
+            this.tile2300.CustomForeColor = true;
+            this.tile2300.ForeColor = System.Drawing.Color.Black;
+            this.tile2300.Location = new System.Drawing.Point(513, 314);
+            this.tile2300.Name = "tile2300";
+            this.tile2300.Size = new System.Drawing.Size(92, 42);
+            this.tile2300.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2300.TabIndex = 39;
+            this.tile2300.Text = "23:00";
+            this.tile2300.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2300.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2300.Click += new System.EventHandler(this.Clik);
+            this.tile2300.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2300.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2230
+            // 
+            this.tile2230.BackColor = System.Drawing.Color.Black;
+            this.tile2230.CustomForeColor = true;
+            this.tile2230.ForeColor = System.Drawing.Color.Black;
+            this.tile2230.Location = new System.Drawing.Point(415, 314);
+            this.tile2230.Name = "tile2230";
+            this.tile2230.Size = new System.Drawing.Size(92, 42);
+            this.tile2230.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2230.TabIndex = 38;
+            this.tile2230.Text = "22:30";
+            this.tile2230.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2230.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2230.Click += new System.EventHandler(this.Clik);
+            this.tile2230.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2230.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2200
+            // 
+            this.tile2200.BackColor = System.Drawing.Color.Black;
+            this.tile2200.CustomForeColor = true;
+            this.tile2200.ForeColor = System.Drawing.Color.Black;
+            this.tile2200.Location = new System.Drawing.Point(317, 314);
+            this.tile2200.Name = "tile2200";
+            this.tile2200.Size = new System.Drawing.Size(92, 42);
+            this.tile2200.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2200.TabIndex = 37;
+            this.tile2200.Text = "22:00";
+            this.tile2200.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2200.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2200.Click += new System.EventHandler(this.Clik);
+            this.tile2200.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2200.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2130
+            // 
+            this.tile2130.BackColor = System.Drawing.Color.Black;
+            this.tile2130.CustomForeColor = true;
+            this.tile2130.ForeColor = System.Drawing.Color.Black;
+            this.tile2130.Location = new System.Drawing.Point(219, 314);
+            this.tile2130.Name = "tile2130";
+            this.tile2130.Size = new System.Drawing.Size(92, 42);
+            this.tile2130.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2130.TabIndex = 36;
+            this.tile2130.Text = "21:30";
+            this.tile2130.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2130.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2130.Click += new System.EventHandler(this.Clik);
+            this.tile2130.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2130.MouseLeave += new System.EventHandler(this.defocuser);
+            // 
+            // tile2100
+            // 
+            this.tile2100.BackColor = System.Drawing.Color.Black;
+            this.tile2100.CustomForeColor = true;
+            this.tile2100.ForeColor = System.Drawing.Color.Black;
+            this.tile2100.Location = new System.Drawing.Point(121, 314);
+            this.tile2100.Name = "tile2100";
+            this.tile2100.Size = new System.Drawing.Size(92, 42);
+            this.tile2100.Style = MetroFramework.MetroColorStyle.Blue;
+            this.tile2100.TabIndex = 35;
+            this.tile2100.Text = "21:00";
+            this.tile2100.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.tile2100.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.tile2100.Click += new System.EventHandler(this.Clik);
+            this.tile2100.MouseEnter += new System.EventHandler(this.focuser);
+            this.tile2100.MouseLeave += new System.EventHandler(this.defocuser);
             // 
             // metroTile43
             // 
@@ -801,6 +803,7 @@
             this.metroTile43.Text = "Add EVENT";
             this.metroTile43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile43.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.metroTile43.Click += new System.EventHandler(this.metroTile43_Click);
             // 
             // metroProgressBar1
             // 
@@ -861,11 +864,31 @@
             this.metroLabel1.TabIndex = 49;
             this.metroLabel1.Text = "metroLabel1";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(415, 20);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(513, 20);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
+            this.richTextBox1.TabIndex = 51;
+            this.richTextBox1.Text = "";
+            // 
             // Metro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(843, 450);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroProgressBar5);
             this.Controls.Add(this.metroProgressBar4);
@@ -873,46 +896,46 @@
             this.Controls.Add(this.metroProgressBar2);
             this.Controls.Add(this.metroProgressBar1);
             this.Controls.Add(this.metroTile43);
-            this.Controls.Add(this.metroTile3);
-            this.Controls.Add(this.metroTile35);
-            this.Controls.Add(this.metroTile36);
-            this.Controls.Add(this.metroTile37);
-            this.Controls.Add(this.metroTile38);
-            this.Controls.Add(this.metroTile39);
-            this.Controls.Add(this.metroTile40);
-            this.Controls.Add(this.metroTile41);
-            this.Controls.Add(this.metroTile42);
-            this.Controls.Add(this.metroTile31);
-            this.Controls.Add(this.metroTile32);
-            this.Controls.Add(this.metroTile33);
-            this.Controls.Add(this.metroTile34);
-            this.Controls.Add(this.metroTile24);
-            this.Controls.Add(this.metroTile25);
-            this.Controls.Add(this.metroTile26);
-            this.Controls.Add(this.metroTile27);
-            this.Controls.Add(this.metroTile28);
-            this.Controls.Add(this.metroTile29);
-            this.Controls.Add(this.metroTile30);
-            this.Controls.Add(this.metroTile17);
-            this.Controls.Add(this.metroTile18);
-            this.Controls.Add(this.metroTile19);
-            this.Controls.Add(this.metroTile20);
-            this.Controls.Add(this.metroTile21);
-            this.Controls.Add(this.metroTile22);
-            this.Controls.Add(this.metroTile23);
-            this.Controls.Add(this.metroTile10);
-            this.Controls.Add(this.metroTile11);
-            this.Controls.Add(this.metroTile12);
-            this.Controls.Add(this.metroTile13);
-            this.Controls.Add(this.metroTile14);
-            this.Controls.Add(this.metroTile15);
-            this.Controls.Add(this.metroTile16);
-            this.Controls.Add(this.metroTile9);
-            this.Controls.Add(this.metroTile8);
-            this.Controls.Add(this.metroTile7);
-            this.Controls.Add(this.metroTile6);
-            this.Controls.Add(this.metroTile5);
-            this.Controls.Add(this.metroTile4);
+            this.Controls.Add(this.tile430);
+            this.Controls.Add(this.tile400);
+            this.Controls.Add(this.tile0000);
+            this.Controls.Add(this.tile2330);
+            this.Controls.Add(this.tile2300);
+            this.Controls.Add(this.tile2230);
+            this.Controls.Add(this.tile2200);
+            this.Controls.Add(this.tile2130);
+            this.Controls.Add(this.tile2100);
+            this.Controls.Add(this.tile2030);
+            this.Controls.Add(this.tile1630);
+            this.Controls.Add(this.tile1230);
+            this.Controls.Add(this.tile800);
+            this.Controls.Add(this.tile2000);
+            this.Controls.Add(this.tile1930);
+            this.Controls.Add(this.tile1900);
+            this.Controls.Add(this.tile1830);
+            this.Controls.Add(this.tile1800);
+            this.Controls.Add(this.tile1730);
+            this.Controls.Add(this.tile1700);
+            this.Controls.Add(this.tile1600);
+            this.Controls.Add(this.tile1530);
+            this.Controls.Add(this.tile1500);
+            this.Controls.Add(this.tile1430);
+            this.Controls.Add(this.tile1400);
+            this.Controls.Add(this.tile1330);
+            this.Controls.Add(this.tile1300);
+            this.Controls.Add(this.tile1200);
+            this.Controls.Add(this.tile1130);
+            this.Controls.Add(this.tile1100);
+            this.Controls.Add(this.tile1030);
+            this.Controls.Add(this.tile1000);
+            this.Controls.Add(this.tile900);
+            this.Controls.Add(this.tile830);
+            this.Controls.Add(this.tile730);
+            this.Controls.Add(this.tile700);
+            this.Controls.Add(this.tile630);
+            this.Controls.Add(this.tile600);
+            this.Controls.Add(this.tile530);
+            this.Controls.Add(this.tile500);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.metroTile2);
             this.Controls.Add(this.metroTile1);
@@ -929,46 +952,46 @@
         private MetroFramework.Controls.MetroTile metroTile1;
         private MetroFramework.Controls.MetroTile metroTile2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private MetroFramework.Controls.MetroTile metroTile3;
-        private MetroFramework.Controls.MetroTile metroTile4;
-        private MetroFramework.Controls.MetroTile metroTile5;
-        private MetroFramework.Controls.MetroTile metroTile6;
-        private MetroFramework.Controls.MetroTile metroTile7;
-        private MetroFramework.Controls.MetroTile metroTile8;
-        private MetroFramework.Controls.MetroTile metroTile9;
-        private MetroFramework.Controls.MetroTile metroTile10;
-        private MetroFramework.Controls.MetroTile metroTile11;
-        private MetroFramework.Controls.MetroTile metroTile12;
-        private MetroFramework.Controls.MetroTile metroTile13;
-        private MetroFramework.Controls.MetroTile metroTile14;
-        private MetroFramework.Controls.MetroTile metroTile15;
-        private MetroFramework.Controls.MetroTile metroTile16;
-        private MetroFramework.Controls.MetroTile metroTile17;
-        private MetroFramework.Controls.MetroTile metroTile18;
-        private MetroFramework.Controls.MetroTile metroTile19;
-        private MetroFramework.Controls.MetroTile metroTile20;
-        private MetroFramework.Controls.MetroTile metroTile21;
-        private MetroFramework.Controls.MetroTile metroTile22;
-        private MetroFramework.Controls.MetroTile metroTile23;
-        private MetroFramework.Controls.MetroTile metroTile24;
-        private MetroFramework.Controls.MetroTile metroTile25;
-        private MetroFramework.Controls.MetroTile metroTile26;
-        private MetroFramework.Controls.MetroTile metroTile27;
-        private MetroFramework.Controls.MetroTile metroTile28;
-        private MetroFramework.Controls.MetroTile metroTile29;
-        private MetroFramework.Controls.MetroTile metroTile30;
-        private MetroFramework.Controls.MetroTile metroTile31;
-        private MetroFramework.Controls.MetroTile metroTile32;
-        private MetroFramework.Controls.MetroTile metroTile33;
-        private MetroFramework.Controls.MetroTile metroTile34;
-        private MetroFramework.Controls.MetroTile metroTile35;
-        private MetroFramework.Controls.MetroTile metroTile36;
-        private MetroFramework.Controls.MetroTile metroTile37;
-        private MetroFramework.Controls.MetroTile metroTile38;
-        private MetroFramework.Controls.MetroTile metroTile39;
-        private MetroFramework.Controls.MetroTile metroTile40;
-        private MetroFramework.Controls.MetroTile metroTile41;
-        private MetroFramework.Controls.MetroTile metroTile42;
+        private MetroFramework.Controls.MetroTile tile430;
+        private MetroFramework.Controls.MetroTile tile500;
+        private MetroFramework.Controls.MetroTile tile530;
+        private MetroFramework.Controls.MetroTile tile600;
+        private MetroFramework.Controls.MetroTile tile630;
+        private MetroFramework.Controls.MetroTile tile700;
+        private MetroFramework.Controls.MetroTile tile730;
+        private MetroFramework.Controls.MetroTile tile1200;
+        private MetroFramework.Controls.MetroTile tile1130;
+        private MetroFramework.Controls.MetroTile tile1100;
+        private MetroFramework.Controls.MetroTile tile1030;
+        private MetroFramework.Controls.MetroTile tile1000;
+        private MetroFramework.Controls.MetroTile tile900;
+        private MetroFramework.Controls.MetroTile tile830;
+        private MetroFramework.Controls.MetroTile tile1600;
+        private MetroFramework.Controls.MetroTile tile1530;
+        private MetroFramework.Controls.MetroTile tile1500;
+        private MetroFramework.Controls.MetroTile tile1430;
+        private MetroFramework.Controls.MetroTile tile1400;
+        private MetroFramework.Controls.MetroTile tile1330;
+        private MetroFramework.Controls.MetroTile tile1300;
+        private MetroFramework.Controls.MetroTile tile2000;
+        private MetroFramework.Controls.MetroTile tile1930;
+        private MetroFramework.Controls.MetroTile tile1900;
+        private MetroFramework.Controls.MetroTile tile1830;
+        private MetroFramework.Controls.MetroTile tile1800;
+        private MetroFramework.Controls.MetroTile tile1730;
+        private MetroFramework.Controls.MetroTile tile1700;
+        private MetroFramework.Controls.MetroTile tile2030;
+        private MetroFramework.Controls.MetroTile tile1630;
+        private MetroFramework.Controls.MetroTile tile1230;
+        private MetroFramework.Controls.MetroTile tile800;
+        private MetroFramework.Controls.MetroTile tile400;
+        private MetroFramework.Controls.MetroTile tile0000;
+        private MetroFramework.Controls.MetroTile tile2330;
+        private MetroFramework.Controls.MetroTile tile2300;
+        private MetroFramework.Controls.MetroTile tile2230;
+        private MetroFramework.Controls.MetroTile tile2200;
+        private MetroFramework.Controls.MetroTile tile2130;
+        private MetroFramework.Controls.MetroTile tile2100;
         private MetroFramework.Controls.MetroTile metroTile43;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar2;
@@ -976,5 +999,7 @@
         private MetroFramework.Controls.MetroProgressBar metroProgressBar4;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar5;
         private MetroFramework.Controls.MetroLabel metroLabel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
