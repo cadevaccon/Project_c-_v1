@@ -80,6 +80,8 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // metroTile1
@@ -93,6 +95,7 @@
             this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTile1.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
             // metroTile2
             // 
@@ -120,7 +123,7 @@
             this.tile430.ForeColor = System.Drawing.Color.Black;
             this.tile430.Location = new System.Drawing.Point(121, 122);
             this.tile430.Name = "tile430";
-            this.tile430.Size = new System.Drawing.Size(92, 42);
+            this.tile430.Size = new System.Drawing.Size(92, 85);
             this.tile430.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile430.TabIndex = 3;
             this.tile430.Text = "4 : 30";
@@ -137,7 +140,7 @@
             this.tile500.ForeColor = System.Drawing.Color.Black;
             this.tile500.Location = new System.Drawing.Point(219, 122);
             this.tile500.Name = "tile500";
-            this.tile500.Size = new System.Drawing.Size(92, 42);
+            this.tile500.Size = new System.Drawing.Size(92, 85);
             this.tile500.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile500.TabIndex = 4;
             this.tile500.Text = "5 :00";
@@ -154,7 +157,7 @@
             this.tile530.ForeColor = System.Drawing.Color.Black;
             this.tile530.Location = new System.Drawing.Point(317, 122);
             this.tile530.Name = "tile530";
-            this.tile530.Size = new System.Drawing.Size(92, 42);
+            this.tile530.Size = new System.Drawing.Size(92, 85);
             this.tile530.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile530.TabIndex = 5;
             this.tile530.Text = "5 :30";
@@ -171,7 +174,7 @@
             this.tile600.ForeColor = System.Drawing.Color.Black;
             this.tile600.Location = new System.Drawing.Point(415, 122);
             this.tile600.Name = "tile600";
-            this.tile600.Size = new System.Drawing.Size(92, 42);
+            this.tile600.Size = new System.Drawing.Size(92, 85);
             this.tile600.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile600.TabIndex = 6;
             this.tile600.Text = "6 :00";
@@ -188,7 +191,7 @@
             this.tile630.ForeColor = System.Drawing.Color.Black;
             this.tile630.Location = new System.Drawing.Point(513, 122);
             this.tile630.Name = "tile630";
-            this.tile630.Size = new System.Drawing.Size(92, 42);
+            this.tile630.Size = new System.Drawing.Size(92, 85);
             this.tile630.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile630.TabIndex = 7;
             this.tile630.Text = "6 :30";
@@ -205,7 +208,7 @@
             this.tile700.ForeColor = System.Drawing.Color.Black;
             this.tile700.Location = new System.Drawing.Point(611, 122);
             this.tile700.Name = "tile700";
-            this.tile700.Size = new System.Drawing.Size(92, 42);
+            this.tile700.Size = new System.Drawing.Size(92, 85);
             this.tile700.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile700.TabIndex = 8;
             this.tile700.Text = "7 :00";
@@ -222,7 +225,7 @@
             this.tile730.ForeColor = System.Drawing.Color.Black;
             this.tile730.Location = new System.Drawing.Point(709, 122);
             this.tile730.Name = "tile730";
-            this.tile730.Size = new System.Drawing.Size(92, 42);
+            this.tile730.Size = new System.Drawing.Size(92, 85);
             this.tile730.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile730.TabIndex = 9;
             this.tile730.Text = "7 :30";
@@ -237,9 +240,9 @@
             this.tile1200.BackColor = System.Drawing.Color.Black;
             this.tile1200.CustomForeColor = true;
             this.tile1200.ForeColor = System.Drawing.Color.Black;
-            this.tile1200.Location = new System.Drawing.Point(709, 170);
+            this.tile1200.Location = new System.Drawing.Point(711, 222);
             this.tile1200.Name = "tile1200";
-            this.tile1200.Size = new System.Drawing.Size(92, 42);
+            this.tile1200.Size = new System.Drawing.Size(92, 82);
             this.tile1200.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1200.TabIndex = 16;
             this.tile1200.Text = "12:00";
@@ -254,9 +257,9 @@
             this.tile1130.BackColor = System.Drawing.Color.Black;
             this.tile1130.CustomForeColor = true;
             this.tile1130.ForeColor = System.Drawing.Color.Black;
-            this.tile1130.Location = new System.Drawing.Point(611, 170);
+            this.tile1130.Location = new System.Drawing.Point(613, 222);
             this.tile1130.Name = "tile1130";
-            this.tile1130.Size = new System.Drawing.Size(92, 42);
+            this.tile1130.Size = new System.Drawing.Size(92, 82);
             this.tile1130.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1130.TabIndex = 15;
             this.tile1130.Text = "11:30";
@@ -271,9 +274,9 @@
             this.tile1100.BackColor = System.Drawing.Color.Black;
             this.tile1100.CustomForeColor = true;
             this.tile1100.ForeColor = System.Drawing.Color.Black;
-            this.tile1100.Location = new System.Drawing.Point(513, 170);
+            this.tile1100.Location = new System.Drawing.Point(515, 222);
             this.tile1100.Name = "tile1100";
-            this.tile1100.Size = new System.Drawing.Size(92, 42);
+            this.tile1100.Size = new System.Drawing.Size(92, 82);
             this.tile1100.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1100.TabIndex = 14;
             this.tile1100.Text = "11:00";
@@ -288,9 +291,9 @@
             this.tile1030.BackColor = System.Drawing.Color.Black;
             this.tile1030.CustomForeColor = true;
             this.tile1030.ForeColor = System.Drawing.Color.Black;
-            this.tile1030.Location = new System.Drawing.Point(415, 170);
+            this.tile1030.Location = new System.Drawing.Point(417, 222);
             this.tile1030.Name = "tile1030";
-            this.tile1030.Size = new System.Drawing.Size(92, 42);
+            this.tile1030.Size = new System.Drawing.Size(92, 82);
             this.tile1030.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1030.TabIndex = 13;
             this.tile1030.Text = "10:30";
@@ -305,9 +308,9 @@
             this.tile1000.BackColor = System.Drawing.Color.Black;
             this.tile1000.CustomForeColor = true;
             this.tile1000.ForeColor = System.Drawing.Color.Black;
-            this.tile1000.Location = new System.Drawing.Point(317, 170);
+            this.tile1000.Location = new System.Drawing.Point(319, 222);
             this.tile1000.Name = "tile1000";
-            this.tile1000.Size = new System.Drawing.Size(92, 42);
+            this.tile1000.Size = new System.Drawing.Size(92, 82);
             this.tile1000.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1000.TabIndex = 12;
             this.tile1000.Text = "10:00";
@@ -322,9 +325,9 @@
             this.tile900.BackColor = System.Drawing.Color.Black;
             this.tile900.CustomForeColor = true;
             this.tile900.ForeColor = System.Drawing.Color.Black;
-            this.tile900.Location = new System.Drawing.Point(219, 170);
+            this.tile900.Location = new System.Drawing.Point(221, 222);
             this.tile900.Name = "tile900";
-            this.tile900.Size = new System.Drawing.Size(92, 42);
+            this.tile900.Size = new System.Drawing.Size(92, 82);
             this.tile900.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile900.TabIndex = 11;
             this.tile900.Text = "9 :00";
@@ -339,9 +342,9 @@
             this.tile830.BackColor = System.Drawing.Color.Black;
             this.tile830.CustomForeColor = true;
             this.tile830.ForeColor = System.Drawing.Color.Black;
-            this.tile830.Location = new System.Drawing.Point(121, 170);
+            this.tile830.Location = new System.Drawing.Point(123, 222);
             this.tile830.Name = "tile830";
-            this.tile830.Size = new System.Drawing.Size(92, 42);
+            this.tile830.Size = new System.Drawing.Size(92, 82);
             this.tile830.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile830.TabIndex = 10;
             this.tile830.Text = "8 :30";
@@ -356,9 +359,9 @@
             this.tile1600.BackColor = System.Drawing.Color.Black;
             this.tile1600.CustomForeColor = true;
             this.tile1600.ForeColor = System.Drawing.Color.Black;
-            this.tile1600.Location = new System.Drawing.Point(709, 218);
+            this.tile1600.Location = new System.Drawing.Point(710, 326);
             this.tile1600.Name = "tile1600";
-            this.tile1600.Size = new System.Drawing.Size(92, 42);
+            this.tile1600.Size = new System.Drawing.Size(92, 73);
             this.tile1600.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1600.TabIndex = 23;
             this.tile1600.Text = "16:00";
@@ -373,9 +376,9 @@
             this.tile1530.BackColor = System.Drawing.Color.Black;
             this.tile1530.CustomForeColor = true;
             this.tile1530.ForeColor = System.Drawing.Color.Black;
-            this.tile1530.Location = new System.Drawing.Point(611, 218);
+            this.tile1530.Location = new System.Drawing.Point(612, 326);
             this.tile1530.Name = "tile1530";
-            this.tile1530.Size = new System.Drawing.Size(92, 42);
+            this.tile1530.Size = new System.Drawing.Size(92, 73);
             this.tile1530.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1530.TabIndex = 22;
             this.tile1530.Text = "15:30";
@@ -390,9 +393,9 @@
             this.tile1500.BackColor = System.Drawing.Color.Black;
             this.tile1500.CustomForeColor = true;
             this.tile1500.ForeColor = System.Drawing.Color.Black;
-            this.tile1500.Location = new System.Drawing.Point(513, 218);
+            this.tile1500.Location = new System.Drawing.Point(514, 326);
             this.tile1500.Name = "tile1500";
-            this.tile1500.Size = new System.Drawing.Size(92, 42);
+            this.tile1500.Size = new System.Drawing.Size(92, 73);
             this.tile1500.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1500.TabIndex = 21;
             this.tile1500.Text = "15:00";
@@ -407,9 +410,9 @@
             this.tile1430.BackColor = System.Drawing.Color.Black;
             this.tile1430.CustomForeColor = true;
             this.tile1430.ForeColor = System.Drawing.Color.Black;
-            this.tile1430.Location = new System.Drawing.Point(415, 218);
+            this.tile1430.Location = new System.Drawing.Point(416, 326);
             this.tile1430.Name = "tile1430";
-            this.tile1430.Size = new System.Drawing.Size(92, 42);
+            this.tile1430.Size = new System.Drawing.Size(92, 73);
             this.tile1430.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1430.TabIndex = 20;
             this.tile1430.Text = "14:30";
@@ -424,9 +427,9 @@
             this.tile1400.BackColor = System.Drawing.Color.Black;
             this.tile1400.CustomForeColor = true;
             this.tile1400.ForeColor = System.Drawing.Color.Black;
-            this.tile1400.Location = new System.Drawing.Point(317, 218);
+            this.tile1400.Location = new System.Drawing.Point(318, 326);
             this.tile1400.Name = "tile1400";
-            this.tile1400.Size = new System.Drawing.Size(92, 42);
+            this.tile1400.Size = new System.Drawing.Size(92, 73);
             this.tile1400.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1400.TabIndex = 19;
             this.tile1400.Text = "14:00";
@@ -441,9 +444,9 @@
             this.tile1330.BackColor = System.Drawing.Color.Black;
             this.tile1330.CustomForeColor = true;
             this.tile1330.ForeColor = System.Drawing.Color.Black;
-            this.tile1330.Location = new System.Drawing.Point(219, 218);
+            this.tile1330.Location = new System.Drawing.Point(220, 326);
             this.tile1330.Name = "tile1330";
-            this.tile1330.Size = new System.Drawing.Size(92, 42);
+            this.tile1330.Size = new System.Drawing.Size(92, 73);
             this.tile1330.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1330.TabIndex = 18;
             this.tile1330.Text = "13:30";
@@ -458,9 +461,9 @@
             this.tile1300.BackColor = System.Drawing.Color.Black;
             this.tile1300.CustomForeColor = true;
             this.tile1300.ForeColor = System.Drawing.Color.Black;
-            this.tile1300.Location = new System.Drawing.Point(121, 218);
+            this.tile1300.Location = new System.Drawing.Point(122, 326);
             this.tile1300.Name = "tile1300";
-            this.tile1300.Size = new System.Drawing.Size(92, 42);
+            this.tile1300.Size = new System.Drawing.Size(92, 73);
             this.tile1300.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1300.TabIndex = 17;
             this.tile1300.Text = "13:00";
@@ -475,9 +478,9 @@
             this.tile2000.BackColor = System.Drawing.Color.Black;
             this.tile2000.CustomForeColor = true;
             this.tile2000.ForeColor = System.Drawing.Color.Black;
-            this.tile2000.Location = new System.Drawing.Point(709, 266);
+            this.tile2000.Location = new System.Drawing.Point(710, 421);
             this.tile2000.Name = "tile2000";
-            this.tile2000.Size = new System.Drawing.Size(92, 42);
+            this.tile2000.Size = new System.Drawing.Size(92, 81);
             this.tile2000.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2000.TabIndex = 30;
             this.tile2000.Text = "20:00";
@@ -492,9 +495,9 @@
             this.tile1930.BackColor = System.Drawing.Color.Black;
             this.tile1930.CustomForeColor = true;
             this.tile1930.ForeColor = System.Drawing.Color.Black;
-            this.tile1930.Location = new System.Drawing.Point(611, 266);
+            this.tile1930.Location = new System.Drawing.Point(612, 421);
             this.tile1930.Name = "tile1930";
-            this.tile1930.Size = new System.Drawing.Size(92, 42);
+            this.tile1930.Size = new System.Drawing.Size(92, 81);
             this.tile1930.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1930.TabIndex = 29;
             this.tile1930.Text = "19:30";
@@ -509,9 +512,9 @@
             this.tile1900.BackColor = System.Drawing.Color.Black;
             this.tile1900.CustomForeColor = true;
             this.tile1900.ForeColor = System.Drawing.Color.Black;
-            this.tile1900.Location = new System.Drawing.Point(513, 266);
+            this.tile1900.Location = new System.Drawing.Point(514, 421);
             this.tile1900.Name = "tile1900";
-            this.tile1900.Size = new System.Drawing.Size(92, 42);
+            this.tile1900.Size = new System.Drawing.Size(92, 81);
             this.tile1900.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1900.TabIndex = 28;
             this.tile1900.Text = "19:00";
@@ -526,9 +529,9 @@
             this.tile1830.BackColor = System.Drawing.Color.Black;
             this.tile1830.CustomForeColor = true;
             this.tile1830.ForeColor = System.Drawing.Color.Black;
-            this.tile1830.Location = new System.Drawing.Point(415, 266);
+            this.tile1830.Location = new System.Drawing.Point(416, 421);
             this.tile1830.Name = "tile1830";
-            this.tile1830.Size = new System.Drawing.Size(92, 42);
+            this.tile1830.Size = new System.Drawing.Size(92, 81);
             this.tile1830.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1830.TabIndex = 27;
             this.tile1830.Text = "18:30";
@@ -543,9 +546,9 @@
             this.tile1800.BackColor = System.Drawing.Color.Black;
             this.tile1800.CustomForeColor = true;
             this.tile1800.ForeColor = System.Drawing.Color.Black;
-            this.tile1800.Location = new System.Drawing.Point(317, 266);
+            this.tile1800.Location = new System.Drawing.Point(318, 421);
             this.tile1800.Name = "tile1800";
-            this.tile1800.Size = new System.Drawing.Size(92, 42);
+            this.tile1800.Size = new System.Drawing.Size(92, 81);
             this.tile1800.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1800.TabIndex = 26;
             this.tile1800.Text = "18:00";
@@ -560,9 +563,9 @@
             this.tile1730.BackColor = System.Drawing.Color.Black;
             this.tile1730.CustomForeColor = true;
             this.tile1730.ForeColor = System.Drawing.Color.Black;
-            this.tile1730.Location = new System.Drawing.Point(219, 266);
+            this.tile1730.Location = new System.Drawing.Point(220, 421);
             this.tile1730.Name = "tile1730";
-            this.tile1730.Size = new System.Drawing.Size(92, 42);
+            this.tile1730.Size = new System.Drawing.Size(92, 81);
             this.tile1730.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1730.TabIndex = 25;
             this.tile1730.Text = "17:30";
@@ -577,9 +580,9 @@
             this.tile1700.BackColor = System.Drawing.Color.Black;
             this.tile1700.CustomForeColor = true;
             this.tile1700.ForeColor = System.Drawing.Color.Black;
-            this.tile1700.Location = new System.Drawing.Point(121, 266);
+            this.tile1700.Location = new System.Drawing.Point(122, 421);
             this.tile1700.Name = "tile1700";
-            this.tile1700.Size = new System.Drawing.Size(92, 42);
+            this.tile1700.Size = new System.Drawing.Size(92, 81);
             this.tile1700.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1700.TabIndex = 24;
             this.tile1700.Text = "17:00";
@@ -594,9 +597,9 @@
             this.tile2030.BackColor = System.Drawing.Color.Black;
             this.tile2030.CustomForeColor = true;
             this.tile2030.ForeColor = System.Drawing.Color.Black;
-            this.tile2030.Location = new System.Drawing.Point(23, 314);
+            this.tile2030.Location = new System.Drawing.Point(24, 508);
             this.tile2030.Name = "tile2030";
-            this.tile2030.Size = new System.Drawing.Size(92, 42);
+            this.tile2030.Size = new System.Drawing.Size(92, 82);
             this.tile2030.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2030.TabIndex = 34;
             this.tile2030.Text = "20:30";
@@ -611,9 +614,9 @@
             this.tile1630.BackColor = System.Drawing.Color.Black;
             this.tile1630.CustomForeColor = true;
             this.tile1630.ForeColor = System.Drawing.Color.Black;
-            this.tile1630.Location = new System.Drawing.Point(24, 266);
+            this.tile1630.Location = new System.Drawing.Point(25, 421);
             this.tile1630.Name = "tile1630";
-            this.tile1630.Size = new System.Drawing.Size(92, 42);
+            this.tile1630.Size = new System.Drawing.Size(92, 81);
             this.tile1630.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1630.TabIndex = 33;
             this.tile1630.Text = "16:30";
@@ -628,9 +631,9 @@
             this.tile1230.BackColor = System.Drawing.Color.Black;
             this.tile1230.CustomForeColor = true;
             this.tile1230.ForeColor = System.Drawing.Color.Black;
-            this.tile1230.Location = new System.Drawing.Point(24, 218);
+            this.tile1230.Location = new System.Drawing.Point(25, 326);
             this.tile1230.Name = "tile1230";
-            this.tile1230.Size = new System.Drawing.Size(92, 42);
+            this.tile1230.Size = new System.Drawing.Size(92, 73);
             this.tile1230.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile1230.TabIndex = 32;
             this.tile1230.Text = "12:30";
@@ -645,9 +648,9 @@
             this.tile800.BackColor = System.Drawing.Color.Black;
             this.tile800.CustomForeColor = true;
             this.tile800.ForeColor = System.Drawing.Color.Black;
-            this.tile800.Location = new System.Drawing.Point(23, 170);
+            this.tile800.Location = new System.Drawing.Point(25, 222);
             this.tile800.Name = "tile800";
-            this.tile800.Size = new System.Drawing.Size(92, 42);
+            this.tile800.Size = new System.Drawing.Size(92, 82);
             this.tile800.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile800.TabIndex = 31;
             this.tile800.Text = "8 :00";
@@ -664,7 +667,7 @@
             this.tile400.ForeColor = System.Drawing.Color.Black;
             this.tile400.Location = new System.Drawing.Point(23, 122);
             this.tile400.Name = "tile400";
-            this.tile400.Size = new System.Drawing.Size(92, 42);
+            this.tile400.Size = new System.Drawing.Size(92, 85);
             this.tile400.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile400.TabIndex = 42;
             this.tile400.Text = "4 :00";
@@ -679,9 +682,9 @@
             this.tile0000.BackColor = System.Drawing.Color.Black;
             this.tile0000.CustomForeColor = true;
             this.tile0000.ForeColor = System.Drawing.Color.Black;
-            this.tile0000.Location = new System.Drawing.Point(709, 314);
+            this.tile0000.Location = new System.Drawing.Point(710, 508);
             this.tile0000.Name = "tile0000";
-            this.tile0000.Size = new System.Drawing.Size(92, 42);
+            this.tile0000.Size = new System.Drawing.Size(92, 82);
             this.tile0000.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile0000.TabIndex = 41;
             this.tile0000.Text = "00:00";
@@ -696,9 +699,9 @@
             this.tile2330.BackColor = System.Drawing.Color.Black;
             this.tile2330.CustomForeColor = true;
             this.tile2330.ForeColor = System.Drawing.Color.Black;
-            this.tile2330.Location = new System.Drawing.Point(611, 314);
+            this.tile2330.Location = new System.Drawing.Point(612, 508);
             this.tile2330.Name = "tile2330";
-            this.tile2330.Size = new System.Drawing.Size(92, 42);
+            this.tile2330.Size = new System.Drawing.Size(92, 82);
             this.tile2330.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2330.TabIndex = 40;
             this.tile2330.Text = "23:30";
@@ -713,9 +716,9 @@
             this.tile2300.BackColor = System.Drawing.Color.Black;
             this.tile2300.CustomForeColor = true;
             this.tile2300.ForeColor = System.Drawing.Color.Black;
-            this.tile2300.Location = new System.Drawing.Point(513, 314);
+            this.tile2300.Location = new System.Drawing.Point(514, 508);
             this.tile2300.Name = "tile2300";
-            this.tile2300.Size = new System.Drawing.Size(92, 42);
+            this.tile2300.Size = new System.Drawing.Size(92, 82);
             this.tile2300.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2300.TabIndex = 39;
             this.tile2300.Text = "23:00";
@@ -730,9 +733,9 @@
             this.tile2230.BackColor = System.Drawing.Color.Black;
             this.tile2230.CustomForeColor = true;
             this.tile2230.ForeColor = System.Drawing.Color.Black;
-            this.tile2230.Location = new System.Drawing.Point(415, 314);
+            this.tile2230.Location = new System.Drawing.Point(416, 508);
             this.tile2230.Name = "tile2230";
-            this.tile2230.Size = new System.Drawing.Size(92, 42);
+            this.tile2230.Size = new System.Drawing.Size(92, 82);
             this.tile2230.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2230.TabIndex = 38;
             this.tile2230.Text = "22:30";
@@ -747,9 +750,9 @@
             this.tile2200.BackColor = System.Drawing.Color.Black;
             this.tile2200.CustomForeColor = true;
             this.tile2200.ForeColor = System.Drawing.Color.Black;
-            this.tile2200.Location = new System.Drawing.Point(317, 314);
+            this.tile2200.Location = new System.Drawing.Point(318, 508);
             this.tile2200.Name = "tile2200";
-            this.tile2200.Size = new System.Drawing.Size(92, 42);
+            this.tile2200.Size = new System.Drawing.Size(92, 82);
             this.tile2200.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2200.TabIndex = 37;
             this.tile2200.Text = "22:00";
@@ -764,9 +767,9 @@
             this.tile2130.BackColor = System.Drawing.Color.Black;
             this.tile2130.CustomForeColor = true;
             this.tile2130.ForeColor = System.Drawing.Color.Black;
-            this.tile2130.Location = new System.Drawing.Point(219, 314);
+            this.tile2130.Location = new System.Drawing.Point(220, 508);
             this.tile2130.Name = "tile2130";
-            this.tile2130.Size = new System.Drawing.Size(92, 42);
+            this.tile2130.Size = new System.Drawing.Size(92, 82);
             this.tile2130.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2130.TabIndex = 36;
             this.tile2130.Text = "21:30";
@@ -781,9 +784,9 @@
             this.tile2100.BackColor = System.Drawing.Color.Black;
             this.tile2100.CustomForeColor = true;
             this.tile2100.ForeColor = System.Drawing.Color.Black;
-            this.tile2100.Location = new System.Drawing.Point(121, 314);
+            this.tile2100.Location = new System.Drawing.Point(122, 508);
             this.tile2100.Name = "tile2100";
-            this.tile2100.Size = new System.Drawing.Size(92, 42);
+            this.tile2100.Size = new System.Drawing.Size(92, 82);
             this.tile2100.Style = MetroFramework.MetroColorStyle.Blue;
             this.tile2100.TabIndex = 35;
             this.tile2100.Text = "21:00";
@@ -807,7 +810,7 @@
             // 
             // metroProgressBar1
             // 
-            this.metroProgressBar1.Location = new System.Drawing.Point(23, 346);
+            this.metroProgressBar1.Location = new System.Drawing.Point(23, 596);
             this.metroProgressBar1.Maximum = 8;
             this.metroProgressBar1.Name = "metroProgressBar1";
             this.metroProgressBar1.Size = new System.Drawing.Size(778, 10);
@@ -817,7 +820,7 @@
             // 
             // metroProgressBar2
             // 
-            this.metroProgressBar2.Location = new System.Drawing.Point(23, 154);
+            this.metroProgressBar2.Location = new System.Drawing.Point(24, 213);
             this.metroProgressBar2.Maximum = 8;
             this.metroProgressBar2.Name = "metroProgressBar2";
             this.metroProgressBar2.Size = new System.Drawing.Size(778, 10);
@@ -827,7 +830,7 @@
             // 
             // metroProgressBar3
             // 
-            this.metroProgressBar3.Location = new System.Drawing.Point(23, 202);
+            this.metroProgressBar3.Location = new System.Drawing.Point(24, 310);
             this.metroProgressBar3.Maximum = 8;
             this.metroProgressBar3.Name = "metroProgressBar3";
             this.metroProgressBar3.Size = new System.Drawing.Size(778, 10);
@@ -837,7 +840,7 @@
             // 
             // metroProgressBar4
             // 
-            this.metroProgressBar4.Location = new System.Drawing.Point(23, 250);
+            this.metroProgressBar4.Location = new System.Drawing.Point(25, 405);
             this.metroProgressBar4.Maximum = 8;
             this.metroProgressBar4.Name = "metroProgressBar4";
             this.metroProgressBar4.Size = new System.Drawing.Size(778, 10);
@@ -847,7 +850,7 @@
             // 
             // metroProgressBar5
             // 
-            this.metroProgressBar5.Location = new System.Drawing.Point(23, 298);
+            this.metroProgressBar5.Location = new System.Drawing.Point(25, 492);
             this.metroProgressBar5.Maximum = 8;
             this.metroProgressBar5.Name = "metroProgressBar5";
             this.metroProgressBar5.Size = new System.Drawing.Size(778, 10);
@@ -872,6 +875,7 @@
             this.button1.TabIndex = 50;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // richTextBox1
@@ -881,12 +885,35 @@
             this.richTextBox1.Size = new System.Drawing.Size(100, 96);
             this.richTextBox1.TabIndex = 51;
             this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(808, 353);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 52;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(805, 324);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 53;
+            this.label1.Text = "label1";
             // 
             // Metro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 450);
+            this.ClientSize = new System.Drawing.Size(843, 640);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.metroLabel1);
@@ -1001,5 +1028,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }

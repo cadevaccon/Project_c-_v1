@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,8 @@ namespace Projet_v1
 {
     public partial class Metro : MetroFramework.Forms.MetroForm
     {
+        public SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-UHKDEM5\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=projet");
+        public static String myuser = Form1.myuser;
         class listevent
         {
             public List<Event> listeevents { get; set; } = new List<Event>();
@@ -29,25 +32,49 @@ namespace Projet_v1
         public Metro()
         {
             InitializeComponent();
-            
-            
+            decryptbulletin();
+            decrypthealth1();
+            decryptjob();
+            foreach (Event ev in LSTevent.listeevents)
+            {
+                eventholder(ev);
+            }
+            metroLabel1.Text += Environment.NewLine + figuretheday();
         }
-       
-        
-        
-        
-        public Event decrypttimeStart (String code,String code2)
+        public String figuretheday()
+        {
+            DateTime D = DateTime.Now;
+            var codejour = new List<String> { "sunday", "monday", "tuesday", "wednesday", "thirsday", "friday", "saturday" };
+            var codemois = new List<int> { 0, 3, 3, 6, 1, 4, 6, 2, 5, 2, 3, 5 };
+            var codeanne = int.Parse(D.Year.ToString()) - 2000;
+            var x = 0;
+            
+            var code = 0;
+            if (codeanne % 4 == 0)
+                x = -1;
+
+            code = D.Day + codemois[D.Month - 1] + codeanne + codeanne / 4 + 6;
+           
+            code = code % 7;
+
+            return codejour[code];
+
+
+
+        }
+
+        public Event decrypttimeStart(String code, String code2)
         {
             Event tt = new Event();
-            int i = 0;
+
             int L;
             String substring = "";
-            L = int.Parse(code.Substring(0,2));
+            L = int.Parse(code.Substring(0, 2));
             int L2 = int.Parse(code.Substring(2, 2));
             L = L * 60;
             L = L2 + L;
-            switch (code2.Substring(2,1))
-            { 
+            switch (code2.Substring(2, 1))
+            {
                 case "0": L = L - 10; break;
                 case "1": L = L - 20; break;
                 case "2": L = L - 40; break;
@@ -60,16 +87,16 @@ namespace Projet_v1
             L = L / 60;
             if (L2 < 30)
 
-                substring = L.ToString()+"00";
+                substring = L.ToString() + "00";
             else
                 substring = L.ToString() + "30";
             tt.time = int.Parse(substring);
             tt.context = "Travel to work";
 
             return tt;
-            
-        }
-        public Event decrypttimeEnd(String code,String code2)
+
+        } // done
+        public Event decrypttimeEnd(String code, String code2)
         {
             Event tt = new Event();
             int i = 0;
@@ -100,7 +127,7 @@ namespace Projet_v1
             tt.context = "Reach home";
 
             return tt;
-        }
+        } // done
         public Event startjob(String code)
         {
             Event tt = new Event();
@@ -117,7 +144,7 @@ namespace Projet_v1
             tt.context = "Start Job";
 
             return tt;
-        }
+        } // done
         public Event Endjob(String code)
         {
             Event tt = new Event();
@@ -134,12 +161,35 @@ namespace Projet_v1
             tt.context = "End Job";
 
             return tt;
-        }
+        }  // done
+
+        public void decryptjob()
+        {
+           String dayoftheweek = figuretheday();
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select "+dayoftheweek+",codetransport from travaille,transport where travaille.codec='"+myuser+"'and transport.codec='"+myuser+"';", con);
+            SqlDataReader rd = cmd.ExecuteReader();
+            
+            
+            while (rd.Read())
+            {
+                try { eventholder(decrypttimeStart(rd.GetString(0), rd.GetString(1))); } catch {; }
+              try {  eventholder(decrypttimeEnd(rd.GetString(0), rd.GetString(1))); } catch {; }
+              try{  eventholder(startjob(rd.GetString(0))); } catch {; }
+           try{     eventholder(Endjob(rd.GetString(0))); } catch {; }
+            } 
+
+            rd.Close();
+            con.Close();
+
+
+        } // done
+
         public String decrypthealth(String code)
         {
-            
+
             int i = 0;
-            String substring="";
+            String substring = "";
             String substring2 = "";
             while (i < code.Length)
             {
@@ -156,7 +206,7 @@ namespace Projet_v1
                             case "5": substring2 = "180"; goto default; // chaque semestre 
                             case "6": substring2 = "365"; goto default; // chaque année
                             default:
-                                substring =substring+ " Normal " + substring2; ;
+                                substring = substring + " Normal " + substring2; ;
                                 i += 2; break;
                         }
                         break;
@@ -172,7 +222,7 @@ namespace Projet_v1
                             case "5": substring2 = "180"; goto default; // chaque semestre 
                             case "6": substring2 = "365"; goto default; // chaque année
                             default:
-                                substring =substring+ " Habituelle " + substring2; ;
+                                substring = substring + " Habituelle " + substring2; ;
                                 i += 2; break;
                         }
                         break; // habituelle
@@ -187,7 +237,7 @@ namespace Projet_v1
                             case "5": substring2 = "180"; goto default; // chaque semestre 
                             case "6": substring2 = "365"; goto default; // chaque année
                             default:
-                                substring =substring+ " Unhabituelle " + substring2; ;
+                                substring = substring + " Unhabituelle " + substring2; ;
                                 i += 2; break;
                         }
                         break; // inhabituelle
@@ -202,7 +252,7 @@ namespace Projet_v1
                             case "5": substring2 = "180"; goto default; // chaque semestre 
                             case "6": substring2 = "365"; goto default; // chaque année
                             default:
-                                substring =substring+ " Urgent " + substring2; ;
+                                substring = substring + " Urgent " + substring2; ;
                                 i += 2; break;
                         }
                         break;   //urgent
@@ -211,9 +261,203 @@ namespace Projet_v1
                 }
             }
             return substring;
-        }
-        
-        public void eventholder(Event x)            // TO CHANGE
+        }    /// too dumb as no time to acutlly finish the urgency of the desease
+        public void decrypthealth1()
+        {
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from health where codec='" + myuser + "';", con);
+            SqlDataReader rd = cmd.ExecuteReader();
+            DateTime ll;
+            DateTime D = DateTime.Now;
+            while (rd.Read())
+            {
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(13));
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update health set newdate1='" + ll.AddDays(int.Parse(rd.GetString(19))).ToString() + "'where codec='" + myuser+ "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(3);
+                        even.time = 800;
+                        LSTevent.Add(even);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(14));
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update health set newdate1='" + ll.AddDays(int.Parse(rd.GetString(20))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(5);
+                        even.time = 800;
+                        LSTevent.Add(even);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(15));
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update health set newdate1='" + ll.AddDays(int.Parse(rd.GetString(21))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(7);
+                        even.time = 800;
+                        LSTevent.Add(even);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(16));
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update health set newdate1='" + ll.AddDays(int.Parse(rd.GetString(22))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(9);
+                        even.time = 800;
+                        LSTevent.Add(even);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(17));
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update health set newdate1='" + ll.AddDays(int.Parse(rd.GetString(23))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(11);
+                        even.time = 800;
+                        LSTevent.Add(even);
+                    }
+                }
+                catch {; }
+            }
+            rd.Close();
+            con.Close();
+
+
+
+
+        } // done
+        public void decryptbulletin()
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from bulletin where codec='" + myuser + "';", con);
+            SqlDataReader rd = cmd.ExecuteReader();
+            DateTime ll;
+            DateTime D = DateTime.Now;
+            while (rd.Read())
+            {
+                try
+                {
+                    Event even = new Event();
+                    Event even2 = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(4)); // last date
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update bulletin set bulletinnewdate1='" + ll.AddDays(int.Parse(rd.GetString(22))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(2);
+                        even.time = 900;
+                        LSTevent.Add(even);
+                        even2.time = 900;
+                        even2.context = rd.GetString(5);
+                        LSTevent.Add(even2);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    Event even2 = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(8)); // last date
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update bulletin set bulletinnewdate1='" + ll.AddDays(int.Parse(rd.GetString(23))).ToString() + "'where codec='" +myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(6);
+                        even.time = 900;
+                        LSTevent.Add(even);
+                        even2.time = 900;
+                        even2.context = rd.GetString(9);
+                        LSTevent.Add(even2);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    Event even2 = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(12)); // last date
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update bulletin set bulletinnewdate1='" + ll.AddDays(int.Parse(rd.GetString(24))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(10);
+                        even.time = 900;
+                        LSTevent.Add(even);
+                        even2.time = 900;
+                        even2.context = rd.GetString(13);
+                        LSTevent.Add(even2);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    Event even2 = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(16)); // last date
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update bulletin set bulletinnewdate1='" + ll.AddDays(int.Parse(rd.GetString(25))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(14);
+                        even.time = 900;
+                        LSTevent.Add(even);
+                        even2.time = 900;
+                        even2.context = rd.GetString(17);
+                        LSTevent.Add(even2);
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    Event even2 = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(20)); // last date
+                    if (D.Date == ll.Date)
+                    {
+                        SqlCommand cmd14 = new SqlCommand("update bulletin set bulletinnewdate1='" + ll.AddDays(int.Parse(rd.GetString(26))).ToString() + "'where codec='" + myuser + "';", con);
+                        cmd14.ExecuteNonQuery();
+                        even.context = rd.GetString(18);
+                        even.time = 900;
+                        LSTevent.Add(even);
+                        even2.time = 900;
+                        even2.context = rd.GetString(21);
+                        LSTevent.Add(even2);
+                    }
+                }
+                catch {; }
+
+
+
+
+            }
+            rd.Close();
+            con.Close();
+        } // Done
+        public void eventholder(Event x)  // Done
         { 
           
 
@@ -264,9 +508,106 @@ namespace Projet_v1
                   
               
             }
+        public void decryptengagement()
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from engagement where codec='" +myuser + "';", con);
+            SqlDataReader rd = cmd.ExecuteReader();
+            DateTime ll;
+            DateTime D = DateTime.Now;
+           
 
+            while (rd.Read())
+            {
+                try
+                {   Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(3));
+                    if (D.Date==ll.Date)
+                    {
+                        even.context = rd.GetString(2);
+                        if (ll.Minute<30)
+                        { even.time = ll.Hour * 100 + 30; }
+                        else
+                        { even.time = ll.Hour * 100; }
 
-        
+                        LSTevent.Add(even);
+                    
+                    }   }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(5));
+                    if (D.Date == ll.Date)
+                    {
+                        even.context = rd.GetString(4);
+                        if (ll.Minute > 30)
+                        { even.time = ll.Hour * 100 + 30; }
+                        else
+                        { even.time = ll.Hour * 100; }
+
+                        LSTevent.Add(even);
+
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(7));
+                    if (D.Date == ll.Date)
+                    {
+                        even.context = rd.GetString(6);
+                        if (ll.Minute > 30)
+                        { even.time = ll.Hour * 100 + 30; }
+                        else
+                        { even.time = ll.Hour * 100; }
+
+                        LSTevent.Add(even);
+
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(9));
+                    if (D.Date == ll.Date)
+                    {
+                        even.context = rd.GetString(8);
+                        if (ll.Minute > 30)
+                        { even.time = ll.Hour * 100 + 30; }
+                        else
+                        { even.time = ll.Hour * 100; }
+
+                        LSTevent.Add(even);
+
+                    }
+                }
+                catch {; }
+                try
+                {
+                    Event even = new Event();
+                    ll = Convert.ToDateTime(rd.GetString(11));
+                    if (D.Date == ll.Date)
+                    {
+                        even.context = rd.GetString(10);
+                        if (ll.Minute > 30)
+                        { even.time = ll.Hour * 100 + 30; }
+                        else
+                        { even.time = ll.Hour * 100; }
+
+                        LSTevent.Add(even);
+
+                    }
+                }
+                catch {; }
+
+            }
+            rd.Close();
+            con.Close();
+        }
+
         public void PB()
         { metroProgressBar1.Value = 0;
             metroProgressBar2.Value = 0;
@@ -347,7 +688,7 @@ namespace Projet_v1
             
         }
         
-            public void focuser(object sender ,EventArgs e)
+        public void focuser(object sender ,EventArgs e)
         {   
                 DateTime D = DateTime.Now;
             metroLabel1.Text = D.ToString();
@@ -418,11 +759,29 @@ namespace Projet_v1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             eventholder(decrypttimeStart("10001615","TT4")); 
             eventholder(decrypttimeEnd("10001615","TT4"));
             eventholder(startjob("10001615"));
             eventholder(Endjob("10001615"));
+            richTextBox1.Text = figuretheday();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            decryptbulletin();
+            decrypthealth1();
+            decryptjob();
+            foreach (Event ev in LSTevent.listeevents)
+            {
+                eventholder(ev);
+            }
+            metroLabel1.Text += Environment.NewLine +figuretheday();
+        }
+
+        private void metroTile1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

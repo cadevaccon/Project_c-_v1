@@ -32,6 +32,11 @@
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.Bulletin = new MetroFramework.Controls.MetroTabPage();
+            this.lastknow5 = new System.Windows.Forms.DateTimePicker();
+            this.lastknow4 = new System.Windows.Forms.DateTimePicker();
+            this.lastknow3 = new System.Windows.Forms.DateTimePicker();
+            this.lastknow2 = new System.Windows.Forms.DateTimePicker();
+            this.lastknow1 = new System.Windows.Forms.DateTimePicker();
             this.bulletin5 = new MetroFramework.Controls.MetroTextBox();
             this.bulletin4 = new MetroFramework.Controls.MetroTextBox();
             this.bulletin3 = new MetroFramework.Controls.MetroTextBox();
@@ -82,6 +87,8 @@
             this.metroLabel43 = new MetroFramework.Controls.MetroLabel();
             this.metroComboBox13 = new MetroFramework.Controls.MetroComboBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -89,6 +96,7 @@
             this.metroRadioButton6 = new MetroFramework.Controls.MetroRadioButton();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
+            this.label5 = new System.Windows.Forms.Label();
             this.sunday = new MetroFramework.Controls.MetroCheckBox();
             this.saturday = new MetroFramework.Controls.MetroCheckBox();
             this.friday = new MetroFramework.Controls.MetroCheckBox();
@@ -170,6 +178,8 @@
             this.metroLabel24 = new MetroFramework.Controls.MetroLabel();
             this.Nbr_Maladie = new MetroFramework.Controls.MetroComboBox();
             this.Info = new MetroFramework.Controls.MetroTabPage();
+            this.address = new MetroFramework.Controls.MetroTextBox();
+            this.nom = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel36 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel35 = new MetroFramework.Controls.MetroLabel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -179,9 +189,14 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.Tab = new MetroFramework.Controls.MetroTabControl();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.metrolabel9 = new MetroFramework.Controls.MetroLabel();
+            this.prenom = new MetroFramework.Controls.MetroTextBox();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
             this.Bulletin.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage4.SuspendLayout();
@@ -225,6 +240,7 @@
             this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile1.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Bold;
+            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
             // metroButton1
             // 
@@ -236,6 +252,11 @@
             // 
             // Bulletin
             // 
+            this.Bulletin.Controls.Add(this.lastknow5);
+            this.Bulletin.Controls.Add(this.lastknow4);
+            this.Bulletin.Controls.Add(this.lastknow3);
+            this.Bulletin.Controls.Add(this.lastknow2);
+            this.Bulletin.Controls.Add(this.lastknow1);
             this.Bulletin.Controls.Add(this.bulletin5);
             this.Bulletin.Controls.Add(this.bulletin4);
             this.Bulletin.Controls.Add(this.bulletin3);
@@ -272,6 +293,46 @@
             this.Bulletin.TabIndex = 6;
             this.Bulletin.Text = "Bulletin";
             this.Bulletin.VerticalScrollbarBarColor = true;
+            // 
+            // lastknow5
+            // 
+            this.lastknow5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lastknow5.Location = new System.Drawing.Point(554, 229);
+            this.lastknow5.Name = "lastknow5";
+            this.lastknow5.Size = new System.Drawing.Size(136, 20);
+            this.lastknow5.TabIndex = 91;
+            // 
+            // lastknow4
+            // 
+            this.lastknow4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lastknow4.Location = new System.Drawing.Point(554, 181);
+            this.lastknow4.Name = "lastknow4";
+            this.lastknow4.Size = new System.Drawing.Size(136, 20);
+            this.lastknow4.TabIndex = 90;
+            // 
+            // lastknow3
+            // 
+            this.lastknow3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lastknow3.Location = new System.Drawing.Point(554, 133);
+            this.lastknow3.Name = "lastknow3";
+            this.lastknow3.Size = new System.Drawing.Size(136, 20);
+            this.lastknow3.TabIndex = 89;
+            // 
+            // lastknow2
+            // 
+            this.lastknow2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lastknow2.Location = new System.Drawing.Point(554, 87);
+            this.lastknow2.Name = "lastknow2";
+            this.lastknow2.Size = new System.Drawing.Size(136, 20);
+            this.lastknow2.TabIndex = 88;
+            // 
+            // lastknow1
+            // 
+            this.lastknow1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lastknow1.Location = new System.Drawing.Point(554, 38);
+            this.lastknow1.Name = "lastknow1";
+            this.lastknow1.Size = new System.Drawing.Size(136, 20);
+            this.lastknow1.TabIndex = 87;
             // 
             // bulletin5
             // 
@@ -315,7 +376,7 @@
             // 
             // prix5
             // 
-            this.prix5.Location = new System.Drawing.Point(342, 226);
+            this.prix5.Location = new System.Drawing.Point(302, 226);
             this.prix5.Name = "prix5";
             this.prix5.Size = new System.Drawing.Size(75, 23);
             this.prix5.TabIndex = 35;
@@ -323,7 +384,7 @@
             // 
             // prix4
             // 
-            this.prix4.Location = new System.Drawing.Point(342, 178);
+            this.prix4.Location = new System.Drawing.Point(302, 178);
             this.prix4.Name = "prix4";
             this.prix4.Size = new System.Drawing.Size(75, 23);
             this.prix4.TabIndex = 34;
@@ -331,7 +392,7 @@
             // 
             // prix3
             // 
-            this.prix3.Location = new System.Drawing.Point(342, 130);
+            this.prix3.Location = new System.Drawing.Point(302, 130);
             this.prix3.Name = "prix3";
             this.prix3.Size = new System.Drawing.Size(75, 23);
             this.prix3.TabIndex = 33;
@@ -339,7 +400,7 @@
             // 
             // prix2
             // 
-            this.prix2.Location = new System.Drawing.Point(342, 87);
+            this.prix2.Location = new System.Drawing.Point(302, 87);
             this.prix2.Name = "prix2";
             this.prix2.Size = new System.Drawing.Size(75, 23);
             this.prix2.TabIndex = 32;
@@ -347,7 +408,7 @@
             // 
             // prix1
             // 
-            this.prix1.Location = new System.Drawing.Point(342, 40);
+            this.prix1.Location = new System.Drawing.Point(302, 40);
             this.prix1.Name = "prix1";
             this.prix1.Size = new System.Drawing.Size(75, 23);
             this.prix1.TabIndex = 31;
@@ -356,20 +417,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(644, 48);
+            this.label4.Location = new System.Drawing.Point(44, 129);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 30;
             this.label4.Text = "label4";
+            this.label4.Visible = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(637, 135);
+            this.button3.Location = new System.Drawing.Point(6, 222);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 29;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Cb5
@@ -384,7 +447,7 @@
             "Chaque Trimester",
             "Chaque Semester",
             "Chaque année"});
-            this.Cb5.Location = new System.Drawing.Point(463, 226);
+            this.Cb5.Location = new System.Drawing.Point(399, 226);
             this.Cb5.Name = "Cb5";
             this.Cb5.Size = new System.Drawing.Size(121, 29);
             this.Cb5.TabIndex = 28;
@@ -402,7 +465,7 @@
             "Chaque Trimester",
             "Chaque Semester",
             "Chaque année"});
-            this.Cb4.Location = new System.Drawing.Point(463, 178);
+            this.Cb4.Location = new System.Drawing.Point(399, 178);
             this.Cb4.Name = "Cb4";
             this.Cb4.Size = new System.Drawing.Size(121, 29);
             this.Cb4.TabIndex = 27;
@@ -420,7 +483,7 @@
             "Chaque Trimester",
             "Chaque Semester",
             "Chaque année"});
-            this.Cb3.Location = new System.Drawing.Point(463, 130);
+            this.Cb3.Location = new System.Drawing.Point(399, 130);
             this.Cb3.Name = "Cb3";
             this.Cb3.Size = new System.Drawing.Size(121, 29);
             this.Cb3.TabIndex = 26;
@@ -438,7 +501,7 @@
             "Chaque Trimester",
             "Chaque Semester",
             "Chaque année"});
-            this.Cb2.Location = new System.Drawing.Point(463, 80);
+            this.Cb2.Location = new System.Drawing.Point(399, 80);
             this.Cb2.Name = "Cb2";
             this.Cb2.Size = new System.Drawing.Size(121, 29);
             this.Cb2.TabIndex = 25;
@@ -456,7 +519,7 @@
             "Chaque Trimester",
             "Chaque Semester",
             "Chaque année"});
-            this.Cb1.Location = new System.Drawing.Point(463, 32);
+            this.Cb1.Location = new System.Drawing.Point(399, 32);
             this.Cb1.Name = "Cb1";
             this.Cb1.Size = new System.Drawing.Size(121, 29);
             this.Cb1.TabIndex = 24;
@@ -465,7 +528,7 @@
             // metroLabel23
             // 
             this.metroLabel23.AutoSize = true;
-            this.metroLabel23.Location = new System.Drawing.Point(342, 204);
+            this.metroLabel23.Location = new System.Drawing.Point(302, 204);
             this.metroLabel23.Name = "metroLabel23";
             this.metroLabel23.Size = new System.Drawing.Size(31, 19);
             this.metroLabel23.TabIndex = 18;
@@ -475,7 +538,7 @@
             // metroLabel22
             // 
             this.metroLabel22.AutoSize = true;
-            this.metroLabel22.Location = new System.Drawing.Point(342, 156);
+            this.metroLabel22.Location = new System.Drawing.Point(302, 156);
             this.metroLabel22.Name = "metroLabel22";
             this.metroLabel22.Size = new System.Drawing.Size(31, 19);
             this.metroLabel22.TabIndex = 17;
@@ -485,7 +548,7 @@
             // metroLabel21
             // 
             this.metroLabel21.AutoSize = true;
-            this.metroLabel21.Location = new System.Drawing.Point(342, 108);
+            this.metroLabel21.Location = new System.Drawing.Point(302, 108);
             this.metroLabel21.Name = "metroLabel21";
             this.metroLabel21.Size = new System.Drawing.Size(31, 19);
             this.metroLabel21.TabIndex = 16;
@@ -495,7 +558,7 @@
             // metroLabel20
             // 
             this.metroLabel20.AutoSize = true;
-            this.metroLabel20.Location = new System.Drawing.Point(342, 64);
+            this.metroLabel20.Location = new System.Drawing.Point(302, 64);
             this.metroLabel20.Name = "metroLabel20";
             this.metroLabel20.Size = new System.Drawing.Size(31, 19);
             this.metroLabel20.TabIndex = 15;
@@ -505,7 +568,7 @@
             // metroLabel19
             // 
             this.metroLabel19.AutoSize = true;
-            this.metroLabel19.Location = new System.Drawing.Point(342, 17);
+            this.metroLabel19.Location = new System.Drawing.Point(302, 17);
             this.metroLabel19.Name = "metroLabel19";
             this.metroLabel19.Size = new System.Drawing.Size(31, 19);
             this.metroLabel19.TabIndex = 14;
@@ -626,6 +689,7 @@
             this.button1.TabIndex = 87;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // metroLabel5
@@ -636,6 +700,7 @@
             this.metroLabel5.Size = new System.Drawing.Size(83, 19);
             this.metroLabel5.TabIndex = 86;
             this.metroLabel5.Text = "metroLabel5";
+            this.metroLabel5.Visible = false;
             // 
             // dateengagement5
             // 
@@ -808,6 +873,27 @@
             this.metroTabPage4.Text = "Transport";
             this.metroTabPage4.VerticalScrollbarBarColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(176, 198);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "label1";
+            this.label1.Visible = false;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(368, 155);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 23;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // metroComboBox3
             // 
             this.metroComboBox3.FormattingEnabled = true;
@@ -876,6 +962,7 @@
             // 
             // metroTabPage5
             // 
+            this.metroTabPage5.Controls.Add(this.label5);
             this.metroTabPage5.Controls.Add(this.richTextBox1);
             this.metroTabPage5.Controls.Add(this.sunday);
             this.metroTabPage5.Controls.Add(this.saturday);
@@ -910,6 +997,16 @@
             this.metroTabPage5.TabIndex = 4;
             this.metroTabPage5.Text = "Emploie";
             this.metroTabPage5.VerticalScrollbarBarColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(51, 180);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "label5";
+            this.label5.Visible = false;
             // 
             // sunday
             // 
@@ -989,6 +1086,7 @@
             this.button4.TabIndex = 42;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox17
@@ -1389,7 +1487,7 @@
             // 
             // lasttohappen5
             // 
-            this.lasttohappen5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lasttohappen5.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.lasttohappen5.Location = new System.Drawing.Point(566, 223);
             this.lasttohappen5.Name = "lasttohappen5";
             this.lasttohappen5.Size = new System.Drawing.Size(136, 20);
@@ -1397,7 +1495,7 @@
             // 
             // lasttohappen4
             // 
-            this.lasttohappen4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lasttohappen4.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.lasttohappen4.Location = new System.Drawing.Point(566, 175);
             this.lasttohappen4.Name = "lasttohappen4";
             this.lasttohappen4.Size = new System.Drawing.Size(136, 20);
@@ -1405,7 +1503,7 @@
             // 
             // lasttohappen3
             // 
-            this.lasttohappen3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lasttohappen3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.lasttohappen3.Location = new System.Drawing.Point(566, 127);
             this.lasttohappen3.Name = "lasttohappen3";
             this.lasttohappen3.Size = new System.Drawing.Size(136, 20);
@@ -1413,7 +1511,7 @@
             // 
             // lasttohappen2
             // 
-            this.lasttohappen2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lasttohappen2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.lasttohappen2.Location = new System.Drawing.Point(566, 80);
             this.lasttohappen2.Name = "lasttohappen2";
             this.lasttohappen2.Size = new System.Drawing.Size(136, 20);
@@ -1421,7 +1519,7 @@
             // 
             // lasttohappen1
             // 
-            this.lasttohappen1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lasttohappen1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.lasttohappen1.Location = new System.Drawing.Point(566, 36);
             this.lasttohappen1.Name = "lasttohappen1";
             this.lasttohappen1.Size = new System.Drawing.Size(136, 20);
@@ -1645,6 +1743,7 @@
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 56;
             this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // label2
             // 
@@ -1654,6 +1753,7 @@
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 55;
             this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // button2
             // 
@@ -1663,6 +1763,7 @@
             this.button2.TabIndex = 54;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // metroLabel25
@@ -1793,6 +1894,11 @@
             // 
             // Info
             // 
+            this.Info.Controls.Add(this.prenom);
+            this.Info.Controls.Add(this.metrolabel9);
+            this.Info.Controls.Add(this.button6);
+            this.Info.Controls.Add(this.address);
+            this.Info.Controls.Add(this.nom);
             this.Info.Controls.Add(this.metroLabel36);
             this.Info.Controls.Add(this.metroLabel35);
             this.Info.Controls.Add(this.groupBox4);
@@ -1807,10 +1913,26 @@
             this.Info.Text = "General Info";
             this.Info.VerticalScrollbarBarColor = true;
             // 
+            // address
+            // 
+            this.address.Location = new System.Drawing.Point(21, 140);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(160, 23);
+            this.address.TabIndex = 25;
+            this.address.Text = "metroTextBox7";
+            // 
+            // nom
+            // 
+            this.nom.Location = new System.Drawing.Point(21, 45);
+            this.nom.Name = "nom";
+            this.nom.Size = new System.Drawing.Size(160, 23);
+            this.nom.TabIndex = 24;
+            this.nom.Text = "metroTextBox6";
+            // 
             // metroLabel36
             // 
             this.metroLabel36.AutoSize = true;
-            this.metroLabel36.Location = new System.Drawing.Point(21, 74);
+            this.metroLabel36.Location = new System.Drawing.Point(21, 117);
             this.metroLabel36.Name = "metroLabel36";
             this.metroLabel36.Size = new System.Drawing.Size(55, 19);
             this.metroLabel36.TabIndex = 23;
@@ -1821,9 +1943,10 @@
             this.metroLabel35.AutoSize = true;
             this.metroLabel35.Location = new System.Drawing.Point(21, 22);
             this.metroLabel35.Name = "metroLabel35";
-            this.metroLabel35.Size = new System.Drawing.Size(105, 19);
+            this.metroLabel35.Size = new System.Drawing.Size(39, 19);
             this.metroLabel35.TabIndex = 21;
-            this.metroLabel35.Text = "Nom et Prenom";
+            this.metroLabel35.Text = "Nom";
+            this.metroLabel35.Click += new System.EventHandler(this.metroLabel35_Click);
             // 
             // groupBox4
             // 
@@ -1869,7 +1992,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(21, 161);
+            this.dateTimePicker1.Location = new System.Drawing.Point(21, 204);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 3;
@@ -1877,7 +2000,7 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(21, 139);
+            this.metroLabel1.Location = new System.Drawing.Point(21, 182);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(116, 19);
             this.metroLabel1.TabIndex = 2;
@@ -1887,15 +2010,63 @@
             // 
             this.Tab.Controls.Add(this.Info);
             this.Tab.Controls.Add(this.metroTabPage3);
-            this.Tab.Controls.Add(this.metroTabPage1);
             this.Tab.Controls.Add(this.Bulletin);
+            this.Tab.Controls.Add(this.metroTabPage1);
             this.Tab.Controls.Add(this.metroTabPage4);
             this.Tab.Controls.Add(this.metroTabPage5);
             this.Tab.Location = new System.Drawing.Point(13, 82);
             this.Tab.Name = "Tab";
-            this.Tab.SelectedIndex = 3;
+            this.Tab.SelectedIndex = 0;
             this.Tab.Size = new System.Drawing.Size(737, 315);
             this.Tab.TabIndex = 1;
+            // 
+            // metroLabel6
+            // 
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.Location = new System.Drawing.Point(181, 28);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(83, 19);
+            this.metroLabel6.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroLabel6.TabIndex = 4;
+            this.metroLabel6.Text = "metroLabel6";
+            this.metroLabel6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(284, 174);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 26;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Visible = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // metrolabel9
+            // 
+            this.metrolabel9.AutoSize = true;
+            this.metrolabel9.Location = new System.Drawing.Point(21, 75);
+            this.metrolabel9.Name = "metrolabel9";
+            this.metrolabel9.Size = new System.Drawing.Size(56, 19);
+            this.metrolabel9.TabIndex = 27;
+            this.metrolabel9.Text = "Prenom";
+            // 
+            // prenom
+            // 
+            this.prenom.Location = new System.Drawing.Point(21, 97);
+            this.prenom.Name = "prenom";
+            this.prenom.Size = new System.Drawing.Size(160, 23);
+            this.prenom.TabIndex = 28;
+            this.prenom.Text = "metroTextBox8";
+            // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(131, 440);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(206, 52);
+            this.metroButton2.TabIndex = 52;
+            this.metroButton2.Text = "Check Schedule";
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // richTextBox1
             // 
@@ -1904,25 +2075,25 @@
             this.richTextBox1.Size = new System.Drawing.Size(100, 96);
             this.richTextBox1.TabIndex = 50;
             this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
             // 
-            // button5
+            // metroLabel8
             // 
-            this.button5.Location = new System.Drawing.Point(368, 155);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 23;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(165, 400);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(460, 19);
+            this.metroLabel8.TabIndex = 53;
+            this.metroLabel8.Text = "Please Only Confirme Once all Items have been Seleted or checked succefully";
             // 
-            // label1
+            // metroLabel12
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(398, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "label1";
+            this.metroLabel12.AutoSize = true;
+            this.metroLabel12.Location = new System.Drawing.Point(165, 415);
+            this.metroLabel12.Name = "metroLabel12";
+            this.metroLabel12.Size = new System.Drawing.Size(259, 19);
+            this.metroLabel12.TabIndex = 54;
+            this.metroLabel12.Text = "We Recommand Confirming ONLY ONCE.";
             // 
             // Information
             // 
@@ -1930,6 +2101,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(800, 556);
+            this.Controls.Add(this.metroLabel12);
+            this.Controls.Add(this.metroLabel8);
+            this.Controls.Add(this.metroButton2);
+            this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.Tab);
@@ -1937,7 +2112,7 @@
             this.Name = "Information";
             this.ShadowType = MetroFramework.Forms.MetroForm.MetroFormShadowType.SystemShadow;
             this.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Text = "S";
+            this.Text = "Personal info";
             this.Bulletin.ResumeLayout(false);
             this.Bulletin.PerformLayout();
             this.metroTabPage1.ResumeLayout(false);
@@ -1972,6 +2147,7 @@
             this.groupBox4.PerformLayout();
             this.Tab.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2128,8 +2304,23 @@
         private System.Windows.Forms.DateTimePicker lasttohappen4;
         private System.Windows.Forms.DateTimePicker lasttohappen3;
         private System.Windows.Forms.DateTimePicker lasttohappen2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
+        private MetroFramework.Controls.MetroTextBox address;
+        private MetroFramework.Controls.MetroTextBox nom;
+        private MetroFramework.Controls.MetroLabel metroLabel6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DateTimePicker lastknow5;
+        private System.Windows.Forms.DateTimePicker lastknow4;
+        private System.Windows.Forms.DateTimePicker lastknow3;
+        private System.Windows.Forms.DateTimePicker lastknow2;
+        private System.Windows.Forms.DateTimePicker lastknow1;
+        private System.Windows.Forms.Button button6;
+        private MetroFramework.Controls.MetroTextBox prenom;
+        private MetroFramework.Controls.MetroLabel metrolabel9;
+        private MetroFramework.Controls.MetroButton metroButton2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private MetroFramework.Controls.MetroLabel metroLabel8;
+        private MetroFramework.Controls.MetroLabel metroLabel12;
     }
 }

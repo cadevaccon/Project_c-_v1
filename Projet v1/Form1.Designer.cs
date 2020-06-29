@@ -41,6 +41,8 @@
             this.AdminPW = new MetroFramework.Controls.MetroLabel();
             this.AdminUS = new MetroFramework.Controls.MetroLabel();
             this.AdminLogin = new MetroFramework.Controls.MetroButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -93,6 +95,7 @@
             this.metroButton2.Size = new System.Drawing.Size(148, 63);
             this.metroButton2.TabIndex = 9;
             this.metroButton2.Text = "Metro";
+            this.metroButton2.Visible = false;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // metroButton3
@@ -102,6 +105,7 @@
             this.metroButton3.Size = new System.Drawing.Size(110, 31);
             this.metroButton3.TabIndex = 10;
             this.metroButton3.Text = "Admin Login";
+            this.metroButton3.Visible = false;
             this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // Login
@@ -115,7 +119,7 @@
             // 
             // AdminUStext
             // 
-            this.AdminUStext.Location = new System.Drawing.Point(218, 133);
+            this.AdminUStext.Location = new System.Drawing.Point(218, 73);
             this.AdminUStext.Name = "AdminUStext";
             this.AdminUStext.Size = new System.Drawing.Size(124, 23);
             this.AdminUStext.TabIndex = 15;
@@ -123,7 +127,7 @@
             // 
             // AdminPWtext
             // 
-            this.AdminPWtext.Location = new System.Drawing.Point(218, 189);
+            this.AdminPWtext.Location = new System.Drawing.Point(292, 218);
             this.AdminPWtext.Name = "AdminPWtext";
             this.AdminPWtext.PasswordChar = '●';
             this.AdminPWtext.Size = new System.Drawing.Size(124, 23);
@@ -160,11 +164,33 @@
             this.AdminLogin.Text = "Admin Login";
             this.AdminLogin.Visible = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(419, 47);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(102, 20);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
+            this.richTextBox1.TabIndex = 18;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(616, 376);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.AdminLogin);
             this.Controls.Add(this.AdminUStext);
             this.Controls.Add(this.AdminPWtext);
@@ -202,6 +228,8 @@
         private MetroFramework.Controls.MetroLabel AdminPW;
         private MetroFramework.Controls.MetroLabel AdminUS;
         private MetroFramework.Controls.MetroButton AdminLogin;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
